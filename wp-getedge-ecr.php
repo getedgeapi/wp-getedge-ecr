@@ -90,7 +90,8 @@ add_filter('auto_update_plugin', 'auto_update_specific_plugins', 10, 2);
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
     'https://github.com/getedgeapi/wp-getedge-ecr',
     __FILE__,
-    'wp-getedge-ecr'
+    'wp-getedge-ecr',
+    1
 );
 $myUpdateChecker->setBranch('main');
 
