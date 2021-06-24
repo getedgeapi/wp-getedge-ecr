@@ -38,6 +38,10 @@ class ComposerStaticInit9aea4b0f391f5aeb2091a2a8ea73929d
         array (
             'Firebase\\JWT\\' => 13,
         ),
+        'D' => 
+        array (
+            'Defuse\\Crypto\\' => 14,
+        ),
         'C' => 
         array (
             'Calcinai\\OAuth2\\Client\\' => 23,
@@ -76,6 +80,10 @@ class ComposerStaticInit9aea4b0f391f5aeb2091a2a8ea73929d
         'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+        ),
+        'Defuse\\Crypto\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/defuse/php-encryption/src',
         ),
         'Calcinai\\OAuth2\\Client\\' => 
         array (

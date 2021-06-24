@@ -1,6 +1,7 @@
 {
     "require": {
         "yahnis-elsts/plugin-update-checker": "^4.5",
-        "calcinai/xero-php": "^2.2"
+        "calcinai/xero-php": "^2.2",
+        "defuse/php-encryption": "^2.3"
     }
 }

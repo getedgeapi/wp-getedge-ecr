@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '0e04dbb8317addd94fdf87e21f1bf3302c1ae5a2',
+        'reference' => 'dc2527adde0bb8fdb23eeb31957b9126702073ae',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '0e04dbb8317addd94fdf87e21f1bf3302c1ae5a2',
+            'reference' => 'dc2527adde0bb8fdb23eeb31957b9126702073ae',
             'dev_requirement' => false,
         ),
         'calcinai/oauth2-xero' => array(
@@ -35,6 +35,15 @@
             'install_path' => __DIR__ . '/../calcinai/xero-php',
             'aliases' => array(),
             'reference' => 'c69271ba6b7cf36ee5005277376732310d1e8f6e',
+            'dev_requirement' => false,
+        ),
+        'defuse/php-encryption' => array(
+            'pretty_version' => 'v2.3.1',
+            'version' => '2.3.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../defuse/php-encryption',
+            'aliases' => array(),
+            'reference' => '77880488b9954b7884c25555c2a0ea9e7053f9d2',
             'dev_requirement' => false,
         ),
         'firebase/php-jwt' => array(
