@@ -1,0 +1,2762 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GetEDGE API for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-05 02:21+0000\n"
+"PO-Revision-Date: 2019-03-05 02:37+0000\n"
+"Last-Translator: admin <noreply@localhost.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.1"
+
+#: wp-getedge-ecr.php:543 includes/admin/class-wp-scgcge-admin.php:45
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:46
+msgid "Hi "
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:47
+msgid "There was an error processing your payment. "
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:49
+msgid "Please fix the error and try again."
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:50
+msgid "Kind regards,"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:50
+msgid "GetEDGE Team"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:130
+#: includes/class-wp-scgcge-ecr-functions.php:131
+msgid "Order Complete for "
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:132
+msgid ""
+"We are pleased to confirm that ASIC has accepted your new company "
+"registration order."
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:133
+msgid ""
+"You can download the documents for the new company using the links below:"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:134
+msgid "Company Documents"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:134
+msgid "to be printed, signed and kept at your registered office"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:134
+msgid "Certificate of Registration"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:135
+msgid "Please note you will need to login to the account you have created at"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:151
+#: includes/class-wp-scgcge-ecr-functions.php:192
+#: includes/class-wp-scgcge-ecr-functions.php:265
+#: includes/class-wp-scgcge-public.php:556
+#: includes/templates/company-registration-forms/processData.php:222
+msgid ""
+"We appreciate and value your comments, suggestions and general feedback as "
+"this helps us to further develop our systems for an ever-improving customer "
+"experience. Please write to"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:153
+msgid " with anything that you would like us to know."
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:155
+#: includes/class-wp-scgcge-ecr-functions.php:193
+msgid "Thank you for your business. "
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:157
+#: includes/class-wp-scgcge-ecr-functions.php:194
+#: includes/class-wp-scgcge-ecr-functions.php:267
+#: includes/class-wp-scgcge-public.php:558
+#: includes/templates/company-registration-forms/processData.php:224
+msgid "Sincerely,"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:173
+#: includes/class-wp-scgcge-ecr-functions.php:174
+#: includes/class-wp-scgcge-ecr-functions.php:260
+#: includes/class-wp-scgcge-ecr-functions.php:261
+msgid "Validation errors for "
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:175
+msgid ""
+"Unfortunately, ASIC has not accepted your company registration order due to "
+"certain validation failures. Details of the validation error(s) are outlined "
+"below. The good news is that you are entitled to amend and resubmit your "
+"order without any additional charges. "
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:176
+#: includes/class-wp-scgcge-ecr-functions.php:214
+msgid "To review, amend and resubmit your registration order,"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:176
+#: includes/class-wp-scgcge-ecr-functions.php:214
+msgid "click here"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:176
+msgid " or access your"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:176
+#: includes/class-wp-scgcge-ecr-functions.php:214
+#: includes/class-wp-scgcge-public.php:555
+msgid "client area"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:176
+#: includes/class-wp-scgcge-ecr-functions.php:214
+msgid "locate the application and click amend."
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:177
+msgid "Validation error(s)"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:192
+#: includes/class-wp-scgcge-ecr-functions.php:265
+#: includes/class-wp-scgcge-public.php:556
+#: includes/templates/company-registration-forms/processData.php:222
+msgid "with anything that you would like us to know."
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:211
+#: includes/class-wp-scgcge-ecr-functions.php:212
+msgid "Rejection Notice for "
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:213
+msgid ""
+"Unfortunately, ASIC has not accepted your company registration order due to "
+"the reason or reasons outlined further down this email. The good news is "
+"that you are entitled to amend and resubmit your order without any "
+"additional charges."
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:215
+msgid "Rejection Notice"
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:241
+#: includes/class-wp-scgcge-ecr-functions.php:242
+#: includes/class-wp-scgcge-ecr-functions.php:248
+#: includes/class-wp-scgcge-ecr-functions.php:249
+#: includes/class-wp-scgcge-ecr-functions.php:256
+#: includes/class-wp-scgcge-ecr-functions.php:257
+msgid "ASIC Review Notice for for "
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:243
+msgid ""
+"This email is to update you regarding your new company order. Currently ASIC "
+"is reviewing your order manually, which will cause an unavoidable delay of "
+"your company registration. No further action is required from you at this "
+"stage. We will check every 5 minutes for updates and relay any new "
+"information to you by email immediately."
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:250
+msgid ""
+"This email is to update you regarding your new company order. Currently your "
+"submitted company order is reserved pending action by applicant. This is "
+"causing an unavoidable delay of your company registration. No further action "
+"is required from you at this stage. We will check every 5 minutes for "
+"updates and relay any new information to you by email immediately."
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:258
+msgid ""
+"This email is to update you regarding your new company order. Currently your "
+"submitted company order is temporarily reserved subject to ASIC decision. "
+"This is causing an unavoidable delay of your company registration. No "
+"further action is required from you at this stage. We will check every 5 "
+"minutes for updates and relay any new information to you by email "
+"immediately."
+msgstr ""
+
+#: includes/class-wp-scgcge-ecr-functions.php:266
+#: includes/class-wp-scgcge-public.php:557
+#: includes/templates/company-registration-forms/processData.php:223
+msgid "Thank you for your business."
+msgstr ""
+
+#: includes/class-wp-scgcge-model.php:157
+msgid "New"
+msgstr ""
+
+#: includes/class-wp-scgcge-model.php:158
+msgid "Finished"
+msgstr ""
+
+#: includes/class-wp-scgcge-model.php:159
+msgid "Validation Failed"
+msgstr ""
+
+#: includes/class-wp-scgcge-form-functions.php:222
+#: includes/class-wp-scgcge-form-functions.php:295
+msgid "Enter street address..."
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:189
+msgid "Select State"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:190
+msgid "Australian Capital Territory"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:191
+msgid "New South Wales"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:192
+msgid "Northern Territory"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:193
+msgid "Queensland"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:194
+msgid "South Australia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:195
+msgid "Tasmania"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:196
+msgid "Victoria"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:197
+msgid "Western Australia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:304
+msgid "Select Share Class"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:305
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Ordinary"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:306
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Class A"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:307
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Class B"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:308
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Class C"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:309
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Class D"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:310
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Class E"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:311
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Class F"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:312
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Class G"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:313
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Class H"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:314
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Class I"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:315
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Class J"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:316
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Class K"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:317
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Management"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:318
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Life Governors"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:319
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Employees"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:320
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Founders"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:321
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Preference"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:322
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Cumulative Preference"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:323
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Non Cumulative Preference"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:324
+msgid "Redeemable Preference"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:325
+msgid "Non Redeemable Preference"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:326
+msgid "Cumulative Redeemable Preference"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:327
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Non Cumulative Redeemable Preference"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:328
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Participative Preference"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:329
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Redeemable"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:330
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Special"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:383
+#: includes/class-wp-scgcge-misc-functions.php:644
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:384
+#: includes/class-wp-scgcge-misc-functions.php:645
+msgid "Aland Islands"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:385
+#: includes/class-wp-scgcge-misc-functions.php:646
+msgid "Albania"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:386
+#: includes/class-wp-scgcge-misc-functions.php:647
+msgid "Algeria"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:387
+#: includes/class-wp-scgcge-misc-functions.php:648
+msgid "American Samoa"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:388
+#: includes/class-wp-scgcge-misc-functions.php:649
+msgid "Andorra"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:389
+#: includes/class-wp-scgcge-misc-functions.php:650
+msgid "Angola"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:390
+#: includes/class-wp-scgcge-misc-functions.php:651
+msgid "Anguilla"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:391
+#: includes/class-wp-scgcge-misc-functions.php:652
+msgid "Antarctica"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:392
+#: includes/class-wp-scgcge-misc-functions.php:653
+msgid "Antigua And Barbuda"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:393
+#: includes/class-wp-scgcge-misc-functions.php:654
+msgid "Argentina"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:394
+#: includes/class-wp-scgcge-misc-functions.php:655
+msgid "Armenia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:395
+#: includes/class-wp-scgcge-misc-functions.php:656
+msgid "Aruba"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:396
+#: includes/class-wp-scgcge-misc-functions.php:657
+msgid "Australia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:397
+#: includes/class-wp-scgcge-misc-functions.php:658
+msgid "Austria"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:398
+#: includes/class-wp-scgcge-misc-functions.php:659
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:399
+#: includes/class-wp-scgcge-misc-functions.php:660
+msgid "Bahamas"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:400
+#: includes/class-wp-scgcge-misc-functions.php:661
+msgid "Bahrain"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:401
+#: includes/class-wp-scgcge-misc-functions.php:662
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:402
+#: includes/class-wp-scgcge-misc-functions.php:663
+msgid "Barbados"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:403
+#: includes/class-wp-scgcge-misc-functions.php:664
+msgid "Belarus"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:404
+#: includes/class-wp-scgcge-misc-functions.php:665
+msgid "Belgium"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:405
+#: includes/class-wp-scgcge-misc-functions.php:666
+msgid "Belize"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:406
+#: includes/class-wp-scgcge-misc-functions.php:667
+msgid "Benin"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:407
+#: includes/class-wp-scgcge-misc-functions.php:668
+msgid "Bermuda"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:408
+#: includes/class-wp-scgcge-misc-functions.php:669
+msgid "Bhutan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:409
+#: includes/class-wp-scgcge-misc-functions.php:670
+msgid "Bolivia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:410
+#: includes/class-wp-scgcge-misc-functions.php:671
+msgid "Bonaire St Eustatius And Saba"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:411
+#: includes/class-wp-scgcge-misc-functions.php:672
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:412
+#: includes/class-wp-scgcge-misc-functions.php:673
+msgid "Botswana"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:413
+#: includes/class-wp-scgcge-misc-functions.php:674
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:414
+#: includes/class-wp-scgcge-misc-functions.php:675
+msgid "Brazil"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:415
+#: includes/class-wp-scgcge-misc-functions.php:676
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:416
+#: includes/class-wp-scgcge-misc-functions.php:677
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:417
+#: includes/class-wp-scgcge-misc-functions.php:678
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:418
+#: includes/class-wp-scgcge-misc-functions.php:679
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:419
+#: includes/class-wp-scgcge-misc-functions.php:680
+msgid "Burundi"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:420
+#: includes/class-wp-scgcge-misc-functions.php:681
+msgid "Cambodia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:421
+#: includes/class-wp-scgcge-misc-functions.php:682
+msgid "Cameroon"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:422
+#: includes/class-wp-scgcge-misc-functions.php:683
+msgid "Canada"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:423
+#: includes/class-wp-scgcge-misc-functions.php:684
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:424
+#: includes/class-wp-scgcge-misc-functions.php:685
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:425
+#: includes/class-wp-scgcge-misc-functions.php:686
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:426
+#: includes/class-wp-scgcge-misc-functions.php:687
+msgid "Chad"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:427
+#: includes/class-wp-scgcge-misc-functions.php:688
+msgid "Chile"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:428
+#: includes/class-wp-scgcge-misc-functions.php:689
+msgid "China"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:429
+#: includes/class-wp-scgcge-misc-functions.php:690
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:430
+#: includes/class-wp-scgcge-misc-functions.php:691
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:431
+#: includes/class-wp-scgcge-misc-functions.php:692
+msgid "Colombia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:432
+#: includes/class-wp-scgcge-misc-functions.php:693
+msgid "Comoros"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:433
+#: includes/class-wp-scgcge-misc-functions.php:694
+msgid "Congo"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:434
+#: includes/class-wp-scgcge-misc-functions.php:695
+msgid "Congo, Democratic Republic Of"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:435
+#: includes/class-wp-scgcge-misc-functions.php:696
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:436
+#: includes/class-wp-scgcge-misc-functions.php:697
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:437
+#: includes/class-wp-scgcge-misc-functions.php:698
+msgid "Cote D'Ivoire"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:438
+#: includes/class-wp-scgcge-misc-functions.php:699
+msgid "Croatia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:439
+#: includes/class-wp-scgcge-misc-functions.php:700
+msgid "Cuba"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:440
+#: includes/class-wp-scgcge-misc-functions.php:701
+msgid "Curacao"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:441
+#: includes/class-wp-scgcge-misc-functions.php:702
+msgid "Cyprus"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:442
+#: includes/class-wp-scgcge-misc-functions.php:703
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:443
+#: includes/class-wp-scgcge-misc-functions.php:704
+msgid "Denmark"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:444
+#: includes/class-wp-scgcge-misc-functions.php:705
+msgid "Djibouti"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:445
+#: includes/class-wp-scgcge-misc-functions.php:706
+msgid "Dominica"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:446
+#: includes/class-wp-scgcge-misc-functions.php:707
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:447
+#: includes/class-wp-scgcge-misc-functions.php:708
+msgid "Ecuador"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:448
+#: includes/class-wp-scgcge-misc-functions.php:709
+msgid "Egypt"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:449
+#: includes/class-wp-scgcge-misc-functions.php:710
+msgid "El Salvador"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:450
+#: includes/class-wp-scgcge-misc-functions.php:711
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:451
+#: includes/class-wp-scgcge-misc-functions.php:712
+msgid "Eritrea"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:452
+#: includes/class-wp-scgcge-misc-functions.php:713
+msgid "Estonia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:453
+#: includes/class-wp-scgcge-misc-functions.php:714
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:454
+#: includes/class-wp-scgcge-misc-functions.php:715
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:455
+#: includes/class-wp-scgcge-misc-functions.php:716
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:456
+#: includes/class-wp-scgcge-misc-functions.php:717
+msgid "Fiji"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:457
+#: includes/class-wp-scgcge-misc-functions.php:718
+msgid "Finland"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:458
+#: includes/class-wp-scgcge-misc-functions.php:719
+msgid "France"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:459
+#: includes/class-wp-scgcge-misc-functions.php:720
+msgid "French Guiana"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:460
+#: includes/class-wp-scgcge-misc-functions.php:721
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:461
+#: includes/class-wp-scgcge-misc-functions.php:722
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:462
+#: includes/class-wp-scgcge-misc-functions.php:723
+msgid "Gabon"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:463
+#: includes/class-wp-scgcge-misc-functions.php:724
+msgid "Gambia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:464
+#: includes/class-wp-scgcge-misc-functions.php:725
+msgid "Georgia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:465
+#: includes/class-wp-scgcge-misc-functions.php:726
+msgid "Germany"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:466
+#: includes/class-wp-scgcge-misc-functions.php:727
+msgid "Ghana"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:467
+#: includes/class-wp-scgcge-misc-functions.php:728
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:468
+#: includes/class-wp-scgcge-misc-functions.php:729
+msgid "Greece"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:469
+#: includes/class-wp-scgcge-misc-functions.php:730
+msgid "Greenland"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:470
+#: includes/class-wp-scgcge-misc-functions.php:731
+msgid "Grenada"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:471
+#: includes/class-wp-scgcge-misc-functions.php:732
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:472
+#: includes/class-wp-scgcge-misc-functions.php:733
+msgid "Guam"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:473
+#: includes/class-wp-scgcge-misc-functions.php:734
+msgid "Guatemala"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:474
+#: includes/class-wp-scgcge-misc-functions.php:735
+msgid "Guernsey"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:475
+#: includes/class-wp-scgcge-misc-functions.php:736
+msgid "Guinea"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:476
+#: includes/class-wp-scgcge-misc-functions.php:737
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:477
+#: includes/class-wp-scgcge-misc-functions.php:738
+msgid "Guyana"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:478
+#: includes/class-wp-scgcge-misc-functions.php:739
+msgid "Haiti"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:479
+#: includes/class-wp-scgcge-misc-functions.php:740
+msgid "Heard Is And Mcdonald Is"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:480
+#: includes/class-wp-scgcge-misc-functions.php:741
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:481
+#: includes/class-wp-scgcge-misc-functions.php:742
+msgid "Honduras"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:482
+#: includes/class-wp-scgcge-misc-functions.php:743
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:483
+#: includes/class-wp-scgcge-misc-functions.php:744
+msgid "Hungary"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:484
+#: includes/class-wp-scgcge-misc-functions.php:745
+msgid "Iceland"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:485
+#: includes/class-wp-scgcge-misc-functions.php:746
+msgid "India"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:486
+#: includes/class-wp-scgcge-misc-functions.php:747
+msgid "Indonesia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:487
+#: includes/class-wp-scgcge-misc-functions.php:748
+msgid "Iran, Islamic Republic Of"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:488
+#: includes/class-wp-scgcge-misc-functions.php:749
+msgid "Iraq"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:489
+#: includes/class-wp-scgcge-misc-functions.php:750
+msgid "Ireland"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:490
+#: includes/class-wp-scgcge-misc-functions.php:751
+msgid "Isle Of Man"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:491
+#: includes/class-wp-scgcge-misc-functions.php:752
+msgid "Israel"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:492
+#: includes/class-wp-scgcge-misc-functions.php:753
+msgid "Italy"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:493
+#: includes/class-wp-scgcge-misc-functions.php:754
+msgid "Jamaica"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:494
+#: includes/class-wp-scgcge-misc-functions.php:755
+msgid "Japan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:495
+#: includes/class-wp-scgcge-misc-functions.php:756
+msgid "Jersey"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:496
+#: includes/class-wp-scgcge-misc-functions.php:757
+msgid "Jordan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:497
+#: includes/class-wp-scgcge-misc-functions.php:758
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:498
+#: includes/class-wp-scgcge-misc-functions.php:759
+msgid "Kenya"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:499
+#: includes/class-wp-scgcge-misc-functions.php:760
+msgid "Kiribati"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:500
+#: includes/class-wp-scgcge-misc-functions.php:761
+msgid "Korea, DPR"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:501
+#: includes/class-wp-scgcge-misc-functions.php:762
+msgid "Korea, Republic Of"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:502
+#: includes/class-wp-scgcge-misc-functions.php:763
+msgid "Kuwait"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:503
+#: includes/class-wp-scgcge-misc-functions.php:764
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:504
+#: includes/class-wp-scgcge-misc-functions.php:765
+msgid "Lao, PDR"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:505
+#: includes/class-wp-scgcge-misc-functions.php:766
+msgid "Latvia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:506
+#: includes/class-wp-scgcge-misc-functions.php:767
+msgid "Lebanon"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:507
+#: includes/class-wp-scgcge-misc-functions.php:768
+msgid "Lesotho"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:508
+#: includes/class-wp-scgcge-misc-functions.php:769
+msgid "Liberia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:509
+#: includes/class-wp-scgcge-misc-functions.php:770
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:510
+#: includes/class-wp-scgcge-misc-functions.php:771
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:511
+#: includes/class-wp-scgcge-misc-functions.php:772
+msgid "Lithuania"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:512
+#: includes/class-wp-scgcge-misc-functions.php:773
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:513
+#: includes/class-wp-scgcge-misc-functions.php:774
+msgid "Macao"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:514
+#: includes/class-wp-scgcge-misc-functions.php:775
+msgid "Macedonia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:515
+#: includes/class-wp-scgcge-misc-functions.php:776
+msgid "Madagascar"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:516
+#: includes/class-wp-scgcge-misc-functions.php:777
+msgid "Malawi"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:517
+#: includes/class-wp-scgcge-misc-functions.php:778
+msgid "Malaysia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:518
+#: includes/class-wp-scgcge-misc-functions.php:779
+msgid "Maldives"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:519
+#: includes/class-wp-scgcge-misc-functions.php:780
+msgid "Mali"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:520
+#: includes/class-wp-scgcge-misc-functions.php:781
+msgid "Malta"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:521
+#: includes/class-wp-scgcge-misc-functions.php:782
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:522
+#: includes/class-wp-scgcge-misc-functions.php:783
+msgid "Martinique"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:523
+#: includes/class-wp-scgcge-misc-functions.php:784
+msgid "Mauritania"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:524
+#: includes/class-wp-scgcge-misc-functions.php:785
+msgid "Mauritius"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:525
+#: includes/class-wp-scgcge-misc-functions.php:786
+msgid "Mayotte"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:526
+#: includes/class-wp-scgcge-misc-functions.php:787
+msgid "Mexico"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:527
+#: includes/class-wp-scgcge-misc-functions.php:788
+msgid "Micronesia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:528
+#: includes/class-wp-scgcge-misc-functions.php:789
+msgid "Moldova, Republic Of"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:529
+#: includes/class-wp-scgcge-misc-functions.php:790
+msgid "Monaco"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:530
+#: includes/class-wp-scgcge-misc-functions.php:791
+msgid "Mongolia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:531
+#: includes/class-wp-scgcge-misc-functions.php:792
+msgid "Montenegro"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:532
+#: includes/class-wp-scgcge-misc-functions.php:793
+msgid "Montserrat"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:533
+#: includes/class-wp-scgcge-misc-functions.php:794
+msgid "Morocco"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:534
+#: includes/class-wp-scgcge-misc-functions.php:795
+msgid "Mozambique"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:535
+#: includes/class-wp-scgcge-misc-functions.php:796
+msgid "Myanmar"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:536
+#: includes/class-wp-scgcge-misc-functions.php:797
+msgid "Namibia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:537
+#: includes/class-wp-scgcge-misc-functions.php:798
+msgid "Nauru"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:538
+#: includes/class-wp-scgcge-misc-functions.php:799
+msgid "Nepal"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:539
+#: includes/class-wp-scgcge-misc-functions.php:800
+msgid "Netherlands"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:540
+#: includes/class-wp-scgcge-misc-functions.php:801
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:541
+#: includes/class-wp-scgcge-misc-functions.php:802
+msgid "New Zealand"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:542
+#: includes/class-wp-scgcge-misc-functions.php:803
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:543
+#: includes/class-wp-scgcge-misc-functions.php:804
+msgid "Niger"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:544
+#: includes/class-wp-scgcge-misc-functions.php:805
+msgid "Nigeria"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:545
+#: includes/class-wp-scgcge-misc-functions.php:806
+msgid "Niue"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:546
+#: includes/class-wp-scgcge-misc-functions.php:807
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:547
+#: includes/class-wp-scgcge-misc-functions.php:808
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:548
+#: includes/class-wp-scgcge-misc-functions.php:809
+msgid "Norway"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:549
+#: includes/class-wp-scgcge-misc-functions.php:810
+msgid "Oman"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:550
+#: includes/class-wp-scgcge-misc-functions.php:811
+msgid "Pakistan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:551
+#: includes/class-wp-scgcge-misc-functions.php:812
+msgid "Palau"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:552
+#: includes/class-wp-scgcge-misc-functions.php:813
+msgid "Palestine, State Of"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:553
+#: includes/class-wp-scgcge-misc-functions.php:814
+msgid "Panama"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:554
+#: includes/class-wp-scgcge-misc-functions.php:815
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:555
+#: includes/class-wp-scgcge-misc-functions.php:816
+msgid "Paraguay"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:556
+#: includes/class-wp-scgcge-misc-functions.php:817
+msgid "Peru"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:557
+#: includes/class-wp-scgcge-misc-functions.php:818
+msgid "Philippines"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:558
+#: includes/class-wp-scgcge-misc-functions.php:819
+msgid "Pitcairn"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:559
+#: includes/class-wp-scgcge-misc-functions.php:820
+msgid "Poland"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:560
+#: includes/class-wp-scgcge-misc-functions.php:821
+msgid "Portugal"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:561
+#: includes/class-wp-scgcge-misc-functions.php:822
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:562
+#: includes/class-wp-scgcge-misc-functions.php:823
+msgid "Qatar"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:563
+#: includes/class-wp-scgcge-misc-functions.php:824
+msgid "Reunion"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:564
+#: includes/class-wp-scgcge-misc-functions.php:825
+msgid "Romania"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:565
+#: includes/class-wp-scgcge-misc-functions.php:826
+msgid "Russian Federation"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:566
+#: includes/class-wp-scgcge-misc-functions.php:827
+msgid "Rwanda"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:567
+#: includes/class-wp-scgcge-misc-functions.php:828
+msgid "Saint Barthelemy"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:568
+#: includes/class-wp-scgcge-misc-functions.php:829
+msgid "St Helena Ascension Tris Cunha"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:569
+#: includes/class-wp-scgcge-misc-functions.php:830
+msgid "Saint Kitts And Nevis"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:570
+#: includes/class-wp-scgcge-misc-functions.php:831
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:571
+#: includes/class-wp-scgcge-misc-functions.php:832
+msgid "Saint Martin (French Part)"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:572
+#: includes/class-wp-scgcge-misc-functions.php:833
+msgid "Saint Pierre And Miquelon"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:573
+#: includes/class-wp-scgcge-misc-functions.php:834
+msgid "St Vincent And Grenadines"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:574
+#: includes/class-wp-scgcge-misc-functions.php:835
+msgid "Samoa"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:575
+#: includes/class-wp-scgcge-misc-functions.php:836
+msgid "San Marino"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:576
+#: includes/class-wp-scgcge-misc-functions.php:837
+msgid "Sao Tome And Principe"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:577
+#: includes/class-wp-scgcge-misc-functions.php:838
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:578
+#: includes/class-wp-scgcge-misc-functions.php:839
+msgid "Senegal"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:579
+#: includes/class-wp-scgcge-misc-functions.php:840
+msgid "Serbia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:580
+#: includes/class-wp-scgcge-misc-functions.php:841
+msgid "Seychelles"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:581
+#: includes/class-wp-scgcge-misc-functions.php:842
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:582
+#: includes/class-wp-scgcge-misc-functions.php:843
+msgid "Singapore"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:583
+#: includes/class-wp-scgcge-misc-functions.php:844
+msgid "Sint Maarten (Dutch Part)"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:584
+#: includes/class-wp-scgcge-misc-functions.php:845
+msgid "Slovakia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:585
+#: includes/class-wp-scgcge-misc-functions.php:846
+msgid "Slovenia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:586
+#: includes/class-wp-scgcge-misc-functions.php:847
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:587
+#: includes/class-wp-scgcge-misc-functions.php:848
+msgid "Somalia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:588
+#: includes/class-wp-scgcge-misc-functions.php:849
+msgid "South Africa"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:589
+#: includes/class-wp-scgcge-misc-functions.php:850
+msgid "Sth Georgia Sth Sandwich Is"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:590
+#: includes/class-wp-scgcge-misc-functions.php:851
+msgid "Spain"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:591
+#: includes/class-wp-scgcge-misc-functions.php:852
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:592
+#: includes/class-wp-scgcge-misc-functions.php:853
+msgid "Sudan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:593
+#: includes/class-wp-scgcge-misc-functions.php:854
+msgid "Suriname"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:594
+#: includes/class-wp-scgcge-misc-functions.php:855
+msgid "Svalbard And Jan Mayen"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:595
+#: includes/class-wp-scgcge-misc-functions.php:856
+msgid "Swaziland"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:596
+#: includes/class-wp-scgcge-misc-functions.php:857
+msgid "Sweden"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:597
+#: includes/class-wp-scgcge-misc-functions.php:858
+msgid "Switzerland"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:598
+#: includes/class-wp-scgcge-misc-functions.php:859
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:599
+#: includes/class-wp-scgcge-misc-functions.php:860
+msgid "Taiwan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:600
+#: includes/class-wp-scgcge-misc-functions.php:861
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:601
+#: includes/class-wp-scgcge-misc-functions.php:862
+msgid "Tanzania, United Republic Of"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:602
+#: includes/class-wp-scgcge-misc-functions.php:863
+msgid "Thailand"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:603
+#: includes/class-wp-scgcge-misc-functions.php:864
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:604
+#: includes/class-wp-scgcge-misc-functions.php:865
+msgid "Togo"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:605
+#: includes/class-wp-scgcge-misc-functions.php:866
+msgid "Tokelau"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:606
+#: includes/class-wp-scgcge-misc-functions.php:867
+msgid "Tonga"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:607
+#: includes/class-wp-scgcge-misc-functions.php:868
+msgid "Trinidad And Tobago"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:608
+#: includes/class-wp-scgcge-misc-functions.php:869
+msgid "Tunisia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:609
+#: includes/class-wp-scgcge-misc-functions.php:870
+msgid "Turkey"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:610
+#: includes/class-wp-scgcge-misc-functions.php:871
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:611
+#: includes/class-wp-scgcge-misc-functions.php:872
+msgid "Turks And Caicos Islands"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:612
+#: includes/class-wp-scgcge-misc-functions.php:873
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:613
+#: includes/class-wp-scgcge-misc-functions.php:874
+msgid "Uganda"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:614
+#: includes/class-wp-scgcge-misc-functions.php:875
+msgid "Ukraine"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:615
+#: includes/class-wp-scgcge-misc-functions.php:876
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:616
+#: includes/class-wp-scgcge-misc-functions.php:877
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:617
+#: includes/class-wp-scgcge-misc-functions.php:878
+msgid "United States"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:618
+#: includes/class-wp-scgcge-misc-functions.php:879
+msgid "US Minor Outlying Islands"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:619
+#: includes/class-wp-scgcge-misc-functions.php:880
+msgid "Uruguay"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:620
+#: includes/class-wp-scgcge-misc-functions.php:881
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:621
+#: includes/class-wp-scgcge-misc-functions.php:882
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:622
+#: includes/class-wp-scgcge-misc-functions.php:883
+msgid "Venezuela, Bolivarian Republic"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:623
+#: includes/class-wp-scgcge-misc-functions.php:884
+msgid "Viet Nam"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:624
+#: includes/class-wp-scgcge-misc-functions.php:885
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:625
+#: includes/class-wp-scgcge-misc-functions.php:886
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:626
+#: includes/class-wp-scgcge-misc-functions.php:887
+msgid "Wallis And Futuna"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:627
+#: includes/class-wp-scgcge-misc-functions.php:888
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:628
+#: includes/class-wp-scgcge-misc-functions.php:889
+msgid "Yemen"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:629
+#: includes/class-wp-scgcge-misc-functions.php:890
+msgid "Zambia"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:630
+#: includes/class-wp-scgcge-misc-functions.php:891
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:893
+msgid "Select Country"
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:1089
+#, php-format
+msgid "Invoice %s was pushed to Xero."
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:1122
+#, php-format
+msgid "Bill %s was pushed to Xero."
+msgstr ""
+
+#: includes/class-wp-scgcge-misc-functions.php:1127
+msgid ""
+"Error processing Xero request. Public certificate and private key files are "
+"not found."
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:114
+msgid "Nothing new!"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:328
+#: includes/class-wp-scgcge-public.php:431
+#: includes/templates/wp-scgcge-company-search-form.php:17
+#: includes/admin/forms/wp-scgcge-requests-list.php:191
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:121
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:243
+#: includes/templates/company-registration-forms/company-registration-entity.php:246
+msgid "Company Name"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:330
+msgid ""
+"If you are a company and you want to brand the company documents, fill in "
+"the above field."
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:357
+msgid ""
+"Please login into your account or create a new one in order to save your "
+"current application progress."
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:360
+msgid "Please login into your account to download the company documents."
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:373
+msgid "Placing the order will lock the application."
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:373
+msgid "Do you want to review the application once again?"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:390
+msgid "Companies list"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:393
+msgid "Company Details"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:393
+msgid "Downloads"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:411
+msgid "You have no company registered with us. "
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:431
+#: includes/admin/forms/wp-scgcge-requests-list.php:193
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:245
+msgid "Status"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:431
+#: includes/templates/company-registration-forms/company-registration-entities.php:134
+#: includes/templates/company-registration-forms/company-registration-entities.php:188
+msgid "Actions"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:435
+msgid "Registered on "
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:442
+msgid "Submitted to ASIC"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:447
+msgid "Open"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:452
+msgid "Amend application"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:454
+msgid "Continue application"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:456
+msgid "No action required"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:465
+msgid "You have no open company registration applications."
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:549
+#: includes/class-wp-scgcge-public.php:550
+#: includes/class-wp-scgcge-public.php:552
+msgid " has been lodged with ASIC"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:551
+#: includes/templates/company-registration-forms/processData.php:217
+msgid "Dear "
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:553
+#: includes/templates/company-registration-forms/processData.php:219
+msgid ""
+"In most cases, submitted orders will be processed by ASIC within minutes "
+"however, please note that unexpected delays may occur if:"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:554
+msgid ""
+"The ASIC system is offline for maintenance or inaccessible for any reason"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:555
+#: includes/templates/company-registration-forms/processData.php:221
+msgid ""
+"You may review the status of your order at anytime by logging in to your"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:555
+#: includes/templates/company-registration-forms/processData.php:221
+msgid ""
+"Information on how to access your client area has been sent to you in a "
+"previous email."
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:755
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:770
+msgid "Downloadable Products"
+msgstr ""
+
+#: includes/class-wp-scgcge-public.php:1002
+msgid "Initial"
+msgstr ""
+
+#: woocommerce/order/order-details.php:39
+msgid "Order details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:45
+msgid "Product"
+msgstr ""
+
+#: woocommerce/order/order-details.php:46
+msgid "Total"
+msgstr ""
+
+#: woocommerce/order/order-details.php:84
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:40
+msgid "No downloads available yet."
+msgstr ""
+
+#. 1: order number 2: order date 3: order status
+#: woocommerce/myaccount/view-order.php:29
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:46
+msgid "Order updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:52
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:51
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#. 1: formatted order total 2: total order items
+#: woocommerce/myaccount/orders.php:63
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:89
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:93
+msgid "Next"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:100
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:48
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:27
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: includes/admin/class-wp-scgcge-admin.php:41
+msgid "GetEDGE ECR"
+msgstr ""
+
+#: includes/admin/class-wp-scgcge-admin.php:43
+#: includes/admin/class-wp-scgcge-admin.php:45
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:39
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:67
+msgid "GetEDGE ECR Settings"
+msgstr ""
+
+#: includes/admin/class-wp-scgcge-admin.php:43
+msgid "Requests"
+msgstr ""
+
+#: includes/admin/class-wp-scgcge-admin.php:140
+msgid "GetEDGE ECR Requests"
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:19
+msgid "Use the ACN as the company name "
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:22
+msgid "Legal Elements"
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:25
+msgid "PTY LTD"
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:26
+#: includes/templates/wp-scgcge-company-search-form.php:27
+msgid "PTY. LTD."
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:28
+msgid "PTY. LIMITED"
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:29
+msgid "PTY LTD."
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:30
+msgid "PTY LIMITED"
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:31
+msgid "PROPRIETARY LTD."
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:32
+msgid "PROPRIETARY LTD"
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:33
+msgid "PROPRIETARY LIMITED"
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:40
+msgid "Check Availability"
+msgstr ""
+
+#: includes/templates/wp-scgcge-company-search-form.php:48
+msgid "Start your New Company"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:127
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:172
+msgid "View Order"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:146
+#: includes/admin/forms/wp-scgcge-requests-list.php:154
+#: includes/admin/forms/wp-scgcge-requests-list.php:237
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:213
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:286
+#: includes/templates/company-registration-forms/company-registration-entity.php:396
+#: includes/templates/company-registration-forms/company-registration-entity.php:453
+#: includes/templates/company-registration-forms/company-registration-entities.php:160
+#: includes/templates/company-registration-forms/company-registration-entities.php:233
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:147
+msgid "Documents"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:148
+msgid "Regenerate Documents"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:149
+msgid "Certificate"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:192
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:244
+msgid "Order Number"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:194
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:246
+msgid "User"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:195
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:247
+msgid "Action"
+msgstr ""
+
+#. message to show when no records in database table
+#: includes/admin/forms/wp-scgcge-requests-list.php:221
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:271
+msgid "No requests found."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:265
+#: includes/admin/forms/wp-scgcge-requests-list.php:267
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:315
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:317
+msgid "Show all company name"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:280
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:334
+msgid "Enter #Order Number"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:282
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:336
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-requests-list.php:333
+#: includes/admin/forms/wp-scgcge-requests-list-old.php:395
+msgid "Record (s) deleted successfully."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:21
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:43
+msgid "Reset All Settings"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:25
+msgid "All Settings Reset Successfully."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:31
+msgid "Changes Saved Successfully."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:63
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:79
+msgid "GetEDGE API Key:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:83
+msgid "Enter the GetEDGE API Key."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:89
+msgid "DOCS API Key:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:92
+msgid ""
+"Enter the Document Production API Key or leave blank for the default "
+"document set."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:99
+msgid "Transmission Type:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:106
+msgid "Select if the transmission should be set to TEST or LIVE."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:112
+msgid "Agent details:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:117
+msgid "Agent Number"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:125
+msgid "Agent representative"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:129
+msgid "Agent email"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:133
+msgid "Agent phone"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:141
+msgid "Agent address:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:146
+msgid "Street address"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:150
+msgid "Suburb"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:154
+msgid "State"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:158
+msgid "Postcode"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:166
+msgid "Pages & Products"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:170
+msgid "Registration Page:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:185
+msgid ""
+"Select the company registration page that has the [company_registration_form]"
+" schortcode."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:191
+msgid "Registration Service:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:209
+msgid "Select the WooCommerce company registration service product."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:215
+msgid "ASIC Registration Fee:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:233
+msgid "Select the WooCommerce ASIC registration fee product."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:239
+msgid "Accent colour:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:244
+msgid "Active button background"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:244
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:248
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:252
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:256
+msgid "Default"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:248
+msgid "Active button colour"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:252
+msgid "Hover button background"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:256
+msgid "Hover button colour"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:262
+msgid "Xero Integration"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:273
+msgid "Consumer Key:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:276
+msgid "Enter Xero Consumer Key."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:282
+msgid "Consumer Secret:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:285
+msgid "Enter Xero Consumer Secret."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:291
+msgid "Public Certificate File:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:300
+msgid "Private Key File:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:309
+msgid "Xero Prefix:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:312
+msgid "Enter the Xero prefix for invoices and references."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:320
+msgid "ASIC disbursement Account:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:323
+msgid "Enter Xero account code for ASIC disbursement account."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:329
+msgid "Registrations Account:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:332
+msgid "Enter Xero account code for Company Registration Sales."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:338
+msgid "General Sales Code:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:341
+msgid "Enter Xero account code for General Sales."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:347
+msgid "ASIC Contact ID:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:350
+msgid "Enter Xero ASIC Contact ID."
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:354
+msgid "Google Integration"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:358
+msgid "Google Map API Key:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:361
+msgid ""
+"Enter Google Map API Key. <a href=\"https://developers.google.com/places/web-"
+"service/get-api-key\" target=\"_blank\">Click here</a> to register for a "
+"Google Maps Places API Key"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:365
+msgid "Slack Integration"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:369
+msgid "Slack Webhook Url:"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:372
+msgid ""
+"Enter Slack Webhook URL. <a href=\"https://api.slack.com/incoming-webhooks\" "
+"target=\"_blank\">Click here</a> to get your Slack Webhook URL<br>e.g. https:"
+"//hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX"
+msgstr ""
+
+#: includes/admin/forms/wp-scgcge-plugin-settings.php:380
+msgid "Save Changes"
+msgstr ""
+
+#: includes/templates/company-registration-forms/processData.php:215
+#: includes/templates/company-registration-forms/processData.php:216
+#: includes/templates/company-registration-forms/processData.php:218
+msgid " has been relodged with ASIC"
+msgstr ""
+
+#: includes/templates/company-registration-forms/processData.php:218
+msgid "We are pleased to confirm that your application for "
+msgstr ""
+
+#: includes/templates/company-registration-forms/processData.php:220
+msgid ""
+"A manual review is initiated by ASIC for reasons such as an unusual name "
+"containing non-dictionary words</li><li>The ASIC system is offline for "
+"maintenance or inaccessible for any reason"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:67
+#: includes/templates/company-registration-forms/company-registration-general-details.php:79
+#: includes/templates/company-registration-forms/company-registration-general-details.php:100
+#: includes/templates/company-registration-forms/company-registration-general-details.php:106
+#: includes/templates/company-registration-forms/company-registration-addresses.php:56
+#: includes/templates/company-registration-forms/company-registration-addresses.php:78
+#: includes/templates/company-registration-forms/company-registration-addresses.php:87
+#: includes/templates/company-registration-forms/company-registration-entity.php:32
+#: includes/templates/company-registration-forms/company-registration-entity.php:97
+#: includes/templates/company-registration-forms/company-registration-entity.php:112
+#: includes/templates/company-registration-forms/company-registration-entities.php:61
+#: includes/templates/company-registration-forms/company-registration-entities.php:85
+#: includes/templates/company-registration-forms/company-registration-entities.php:91
+#: includes/templates/company-registration-forms/company-registration-review.php:29
+#: includes/templates/company-registration-forms/company-registration-review.php:46
+#: includes/templates/company-registration-forms/company-registration-review.php:61
+msgid ""
+"Session expired! Please restart the application process from the homepage."
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:82
+#: includes/templates/company-registration-forms/company-registration-general-details.php:103
+#: includes/templates/company-registration-forms/company-registration-addresses.php:41
+#: includes/templates/company-registration-forms/company-registration-addresses.php:59
+#: includes/templates/company-registration-forms/company-registration-addresses.php:81
+#: includes/templates/company-registration-forms/company-registration-entity.php:85
+#: includes/templates/company-registration-forms/company-registration-entity.php:100
+#: includes/templates/company-registration-forms/company-registration-entities.php:49
+#: includes/templates/company-registration-forms/company-registration-entities.php:64
+#: includes/templates/company-registration-forms/company-registration-entities.php:88
+#: includes/templates/company-registration-forms/company-registration-review.php:32
+#: includes/templates/company-registration-forms/company-registration-review.php:49
+msgid "You are not authorised to edit the application!"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:86
+#: includes/templates/company-registration-forms/company-registration-addresses.php:63
+#: includes/templates/company-registration-forms/company-registration-entity.php:104
+#: includes/templates/company-registration-forms/company-registration-entities.php:68
+#: includes/templates/company-registration-forms/company-registration-review.php:53
+msgid "Application locked! The application was already submitted."
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:110
+#: includes/templates/company-registration-forms/company-registration-addresses.php:91
+#: includes/templates/company-registration-forms/company-registration-entity.php:116
+#: includes/templates/company-registration-forms/company-registration-entities.php:95
+#: includes/templates/company-registration-forms/company-registration-review.php:65
+msgid "Go to the homepage"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:137
+msgid "Full Company Name"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:143
+msgid "Jurisdiction"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:152
+msgid "Company Subclass"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:153
+msgid "Proprietary Limited"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:153
+msgid "Superannuation Trustee"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:158
+msgid "Will the company have an ultimate holding company?"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:158
+msgid ""
+"If one company controls another company and is itself not a subsidiary of "
+"another company, then it is called an ultimate holding company."
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:167
+#: includes/templates/company-registration-forms/company-registration-review.php:88
+msgid "Ultimate Holding Company"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:173
+#: includes/templates/company-registration-forms/company-registration-entity.php:252
+msgid "Country of Incorporation"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:182
+msgid "ACN / ARBN"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:188
+msgid "ABN"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:197
+msgid "When was your business name registered?"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:198
+msgid "After May 28th 2012"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:198
+msgid "Before May 28th 2012"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:203
+msgid "ABN of the Business Name holder"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:212
+msgid "State of Registration"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:218
+msgid "State Business Number"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:232
+msgid "Go Back"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:233
+#: includes/templates/company-registration-forms/company-registration-addresses.php:150
+#: includes/templates/company-registration-forms/company-registration-entities.php:260
+msgid "Next Step"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-general-details.php:234
+#: includes/templates/company-registration-forms/company-registration-addresses.php:151
+#: includes/templates/company-registration-forms/company-registration-entity.php:476
+#: includes/templates/company-registration-forms/company-registration-entities.php:261
+#: includes/templates/company-registration-forms/company-registration-review.php:256
+msgid "Please check spelling and correctness of your data before proceeding"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-addresses.php:109
+#: includes/templates/company-registration-forms/company-registration-review.php:104
+msgid "Registered Office"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-addresses.php:117
+msgid "Does this company occupy the above premises?"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-addresses.php:117
+msgid ""
+"By selecting No, I declare that I have written consent from the occupier to "
+"use it as the registered office of the company."
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-addresses.php:132
+msgid "Is the Principal Place of Business identical with the Registered Office"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-addresses.php:132
+msgid ""
+"By selecting Yes, I declare that the principal place of business where the "
+"business is primarily conducted and or decisions are made, is the same as "
+"the registered office address."
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-addresses.php:148
+#: includes/templates/company-registration-forms/company-registration-entities.php:258
+#: includes/templates/company-registration-forms/company-registration-review.php:247
+msgid "Save Form"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-addresses.php:149
+#: includes/templates/company-registration-forms/company-registration-entity.php:474
+#: includes/templates/company-registration-forms/company-registration-entities.php:259
+#: includes/templates/company-registration-forms/company-registration-review.php:248
+msgid "Previous Step"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:124
+msgid "Add Individual"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:129
+msgid "Add Corporate Shareholder"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:134
+msgid "Edit Individual"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:140
+msgid "Edit Corporate Shareholder"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:166
+#: includes/templates/company-registration-forms/company-registration-entity.php:199
+msgid "Middle Name(s)"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:180
+msgid "Role(s) within the company"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:188
+msgid "Does the office holder have a former name?"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:212
+msgid "Birth Details"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:215
+msgid "Date of Birth (dd/mm/yyyy)"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:222
+msgid "Country of Birth"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:229
+msgid "State of Birth"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:236
+msgid "City or Suburb"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:258
+msgid "Company ACN"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:279
+#: includes/templates/company-registration-forms/company-registration-entity.php:333
+msgid "Add"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:282
+#: includes/templates/company-registration-forms/company-registration-entity.php:349
+#: includes/templates/company-registration-forms/company-registration-entity.php:410
+msgid "Share Allocation"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:285
+#: includes/templates/company-registration-forms/company-registration-entity.php:352
+#: includes/templates/company-registration-forms/company-registration-entity.php:413
+msgid "Share Class"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:292
+#: includes/templates/company-registration-forms/company-registration-entity.php:359
+#: includes/templates/company-registration-forms/company-registration-entity.php:420
+msgid "Number of Shares"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:299
+#: includes/templates/company-registration-forms/company-registration-entity.php:366
+#: includes/templates/company-registration-forms/company-registration-entity.php:427
+msgid "Paid per Share (eg. $1)"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:306
+#: includes/templates/company-registration-forms/company-registration-entity.php:373
+#: includes/templates/company-registration-forms/company-registration-entity.php:434
+msgid "Unpaid per Share (eg. $0)"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:313
+#: includes/templates/company-registration-forms/company-registration-entity.php:380
+#: includes/templates/company-registration-forms/company-registration-entity.php:441
+msgid "Will you be the owner of these shares?"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:313
+#: includes/templates/company-registration-forms/company-registration-entity.php:380
+#: includes/templates/company-registration-forms/company-registration-entity.php:441
+msgid ""
+"If you hold the shares on behalf of someone else, select NO; otherwise, "
+"select YES"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:323
+#: includes/templates/company-registration-forms/company-registration-entity.php:390
+#: includes/templates/company-registration-forms/company-registration-entity.php:447
+msgid "Who will be the owner of these shares?"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:323
+#: includes/templates/company-registration-forms/company-registration-entity.php:390
+#: includes/templates/company-registration-forms/company-registration-entity.php:447
+msgid "Beneficial Owner's name"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entity.php:475
+msgid "Save Entity"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entities.php:114
+msgid ""
+"A proprietary limited company is required to have at least one Australian "
+"resident director and one shareholder. An individual can fulfill both roles "
+"if it is necessary."
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entities.php:117
+msgid "Add New Individual"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entities.php:118
+msgid "Add New Corporate Shareholder"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entities.php:123
+#: includes/templates/company-registration-forms/company-registration-review.php:120
+msgid "Office Holder/s"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entities.php:131
+#: includes/templates/company-registration-forms/company-registration-entities.php:185
+msgid "Name"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entities.php:132
+#: includes/templates/company-registration-forms/company-registration-entities.php:186
+#: includes/templates/company-registration-forms/company-registration-review.php:215
+msgid "Address"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entities.php:133
+msgid "Role(s)"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entities.php:159
+#: includes/templates/company-registration-forms/company-registration-entities.php:232
+msgid "Edit"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entities.php:177
+msgid "Shareholder/s"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-entities.php:187
+msgid "Shares"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:80
+msgid "Company Name / Type"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:98
+msgid "Identical Business Name"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:112
+msgid "Principal Place of Business"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:114
+msgid "Care of "
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:144
+msgid "Shareholders"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:171
+msgid "Beneficially held"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:171
+msgid "Held on behalf of "
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:182
+msgid "Applicant"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:186
+msgid "Select Applicant"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:201
+msgid "OTHER"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:205
+msgid "First Name"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:208
+msgid "Middle Name"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:211
+msgid "Last Name"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:220
+msgid "Acknowledgements & Declarations"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:223
+msgid ""
+"By completing and submitting this form to apply for ASIC registration of a "
+"company, I hereby declare that I have provided accurate information and that "
+"I have done so with the express permission and signed consent of all "
+"officeholders, members and occupiers listed on the form. I further declare "
+"that I, and or / or the aforementioned officeholders, members and occupiers "
+"understand the obligations to be appointed in the applicable position of the "
+"company being applied for."
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:224
+#, php-format
+msgid ""
+"I authorise %s to transmit the information I have supplied within this form "
+"to any relevant third party in accordance with the privacy policy of the "
+"third party. Third parties include, but may not be limited to: Australian "
+"Securities and Investments Commission (ASIC), the Australian Business "
+"Register (ABR) and the Australian Taxation Office (ATO), and our printing "
+"suppliers. For more information on the privacy policies of ASIC and the ABR."
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:231
+msgid "I agree with the terms and conditions"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:238
+#, php-format
+msgid ""
+"Please double check that all details provided are 100% correct before "
+"submitting."
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:252
+msgid "Submit Application"
+msgstr ""
+
+#: includes/templates/company-registration-forms/company-registration-review.php:254
+msgid "Go To Cart"
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p5/Plugin/Ui.php:134
+msgid "Check for updates"
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p5/Plugin/Ui.php:222
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p5/Plugin/Ui.php:224
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p5/Plugin/Ui.php:226
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p5/Plugin/Ui.php:232
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p5/Vcs/PluginUpdateChecker.php:103
+msgid "There is no changelog available."
+msgstr ""
+
+#. Name of the plugin
+msgid "GetEDGE API for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Search company name availability and register companies with ASIC, using "
+"GetEDGE API."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://getedge.com.au/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Southern Cross Global Consulting Pty Ltd"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.scglobal.com.au/"
+msgstr ""

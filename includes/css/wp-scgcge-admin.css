@@ -1,0 +1,9 @@
+#wpd-ws-settings-content {
+	display: none;
+}
+.wpd-ws-settings-save {
+	float: right;
+}
+.wpd-ws-textarea-editor {
+	width: 600px;
+}

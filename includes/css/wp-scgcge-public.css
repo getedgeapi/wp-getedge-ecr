@@ -1,0 +1,586 @@
+html {
+    font-size: 100% !important;
+}
+/* #companyRegistrationForm {
+    max-width: 750px;
+    margin: 0 auto;
+} */
+.bootstrapiso i {
+    cursor: help;
+}
+body .bootstrapiso .custom-control-inline {
+    margin-top: 7px !important;
+    margin-bottom: 7px !important;
+}
+body .bootstrapiso h2 {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+body .bootstrapiso label {
+    display: block;
+}
+body .bootstrapiso .js-step {
+    display: none;
+}
+body .bootstrapiso .js-step-active {
+    display: block;
+}
+body .bootstrapiso .js-step .fv-plugins-icon.fa-check {
+    color: #28a745;
+}
+body .bootstrapiso .js-step .fv-plugins-icon.fa-times {
+    color: #dc3545;
+}
+body .bootstrapiso .col-1, body .bootstrapiso .col-2, body .bootstrapiso .col-3, body .bootstrapiso .col-4, body .bootstrapiso .col-5, body .bootstrapiso .col-6, body .bootstrapiso .col-7, body .bootstrapiso .col-8, body .bootstrapiso .col-9, body .bootstrapiso .col-10, body .bootstrapiso .col-11, body .bootstrapiso .col-12, body .bootstrapiso .col, body .bootstrapiso .col-auto, body .bootstrapiso .col-sm-1, body .bootstrapiso .col-sm-2, body .bootstrapiso .col-sm-3, body .bootstrapiso .col-sm-4, body .bootstrapiso .col-sm-5, body .bootstrapiso .col-sm-6, body .bootstrapiso .col-sm-7, body .bootstrapiso .col-sm-8, body .bootstrapiso .col-sm-9, body .bootstrapiso .col-sm-10, body .bootstrapiso .col-sm-11, body .bootstrapiso .col-sm-12, body .bootstrapiso .col-sm, body .bootstrapiso .col-sm-auto, body .bootstrapiso .col-md-1, body .bootstrapiso .col-md-2, body .bootstrapiso .col-md-3, body .bootstrapiso .col-md-4, body .bootstrapiso .col-md-5, body .bootstrapiso .col-md-6, body .bootstrapiso .col-md-7, body .bootstrapiso .col-md-8, body .bootstrapiso .col-md-9, body .bootstrapiso .col-md-10, body .bootstrapiso .col-md-11, body .bootstrapiso .col-md-12, body .bootstrapiso .col-md, body .bootstrapiso .col-md-auto, body .bootstrapiso .col-lg-1, body .bootstrapiso .col-lg-2, body .bootstrapiso .col-lg-3, body .bootstrapiso .col-lg-4, body .bootstrapiso .col-lg-5, body .bootstrapiso .col-lg-6, body .bootstrapiso .col-lg-7, body .bootstrapiso .col-lg-8, body .bootstrapiso .col-lg-9, body .bootstrapiso .col-lg-10, body .bootstrapiso .col-lg-11, body .bootstrapiso .col-lg-12, body .bootstrapiso .col-lg, body .bootstrapiso .col-lg-auto, body .bootstrapiso .col-xl-1, body .bootstrapiso .col-xl-2, body .bootstrapiso .col-xl-3, body .bootstrapiso .col-xl-4, body .bootstrapiso .col-xl-5, body .bootstrapiso .col-xl-6, body .bootstrapiso .col-xl-7, body .bootstrapiso .col-xl-8, body .bootstrapiso .col-xl-9, body .bootstrapiso .col-xl-10, body .bootstrapiso .col-xl-11, body .bootstrapiso .col-xl-12, body .bootstrapiso .col-xl, body .bootstrapiso .col-xl-auto {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+body .bootstrapiso .fv-plugins-message-container {
+    display: none !important;
+    /* text-align: right;
+    margin-top: -23px;
+    margin-right: 5px; */
+}
+body .bootstrapiso .col-form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+}
+body .bootstrapiso .custom-checkbox i {
+    display: none !important;
+}
+body .bootstrapiso .was-validated .custom-control-input:valid ~ .custom-control-label, body .bootstrapiso .custom-control-input.is-valid ~ .custom-control-label {
+    color: inherit !important;
+}
+body .bootstrapiso .fv-plugins-icon {
+    display: none !important;
+}
+body .bootstrapiso .hide {
+    display: none;
+}
+body .bootstrapiso i {
+    cursor: inherit !important;
+}
+label.is-invalid {
+    display: none !important;
+}
+.error .alert {
+    line-height: 38px !important;
+    height: 38px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
+}
+.woocommerce table.shop_table.woocommerce-checkout-review-order-table {
+    width: 100% !important;
+    float: none !important;
+}
+.woocommerce-checkout-payment {
+    width: 100% !important;
+    float: none !important;
+}
+
+
+body .gpnf-dialog .gform_wrapper ul li.gfield:first-child {
+    margin-top: 16px !important;
+}
+.gchoice_select_all, .gform_wrapper ul.gfield_checkbox li input[type=checkbox]:checked+label, .gform_wrapper ul.gfield_radio li input[type=radio]:checked+label {
+    font-weight: normal !important;
+}
+body .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), body .gform_wrapper textarea.textarea, body div.form_saved_message div.form_saved_message_emailform form input[type=text] {
+    padding: 8px 10px 7px 10px !important;
+    font-size: 14px !important;
+}
+.gform_wrapper .field_sublabel_above .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_above div[class*=gfield_date_].ginput_container label, .gform_wrapper .field_sublabel_above div[class*=gfield_time_].ginput_container label, .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_date_].ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label {
+    font-size: .613em !important;
+}
+body .gform_wrapper select {
+    height: 39px !important;
+}
+body .gform_wrapper .gform_footer input.button, body .gform_wrapper .gform_footer input[type=submit], body .gform_wrapper .gform_page_footer input.button, body .gform_wrapper .gform_page_footer input[type=submit], body .gform_wrapper input[type=button], body div.form_saved_message div.form_saved_message_emailform form input[type=submit] {
+    padding: 0 20px !important;
+    font-size: 16px;
+}
+.gpnf-dialog.ui-dialog {
+    top: 90px !important;
+}
+.gform_wrapper label.gfield_label {
+    font-size: 14px !important;
+    line-height: 1 !important;
+}
+body .gform_wrapper .top_label div.ginput_container {
+    margin-top: 0 !important;
+}
+
+/* Form alterations */
+.searchflexi {
+   display: flex !important;
+   justify-content: center;
+   list-style-type: none !important;
+   padding-left: 0 !important;
+   margin-left: 0 !important;
+}
+
+.searchflexi > div {
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+}
+.searchflexi select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    background-image: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#444' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    padding: 2px 25px 2px 10px !important;
+    height: 37px !important;
+    line-height: 1.5;
+    box-sizing: border-box!important;
+    color: inherit;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    outline: 0;
+    margin: 0;
+    vertical-align: baseline;
+    max-width: 100%;
+}
+.searchflexi .company_name_container {
+   flex-basis: 50%;
+}
+.searchflexi input[type=text],
+.searchflexi select {
+   width: 100% !important;
+}
+.searchflexi .button:disabled {
+    background: #f4f4f4;
+    border: 1px solid #e4e4e4;
+    color: #252525;
+    cursor: not-allowed !important;
+}
+.searchflexi .button:disabled:hover {
+    background: #f4f4f4;
+    border: 1px solid #e4e4e4;
+    color: #252525;
+}
+#search-result {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#search-result .hmess {
+    text-align: center;
+}
+.hasDatepicker {
+    width: 100% !important;
+}
+
+
+/* Footer */
+.footer-widget .widget_recent_entries a {
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+.footer-widget .widget_recent_entries a:hover {
+    color: #fff !important;
+}
+.footer-widget .widget_recent_entries li span.post-date {
+    font-size: 12px;
+}
+.footer-widget .widget_recent_entries li span.post-date::before {
+    content: " (posted on ";
+}
+.footer-widget .widget_recent_entries li span.post-date::after {
+    content: ")";
+}
+#footer-info {
+    font-size: 13px;
+    line-height: 18px;
+}
+.bottom-nav {
+    padding: 0;
+}
+.bottom-nav li {
+    font-size: 13px;
+    font-weight: normal;
+    padding-right: 0;
+}
+.bottom-nav li a {
+    color: #666;
+}
+.bottom-nav li a:hover {
+    color: #fff;
+}
+.bottom-nav li.current-menu-item a {
+    color: #fff;
+}
+/* Resets */
+.mt-0 {
+   margin-top: 0 !important;
+}
+.pl-0 {
+   padding-left: 0 !important;
+}
+
+
+#register {
+    display: none;
+}
+.acn-only {
+    margin-top: 0 !important;
+}
+
+.gpnf-nested-entries-container .gpnf-nested-entries {
+    min-width: 100%;
+}
+body .gform_wrapper .gform_body .gform_fields {
+    padding: 0 !important;
+    list-style-type: none !important;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.gpnf-dialog.ui-dialog {
+    max-width: 800px;
+}
+
+
+.shop_table.cart td:nth-child(2),
+.shop_table.cart th:nth-child(2) {
+    display: none;
+}
+.shop_table.cart td:nth-child(5),
+.shop_table.cart th:nth-child(5) {
+    text-align: center;
+}
+.shop_table.cart td:nth-child(4),
+.shop_table.cart th:nth-child(4),
+.shop_table.cart td:nth-child(6),
+.shop_table.cart th:nth-child(6) {
+        text-align: right;
+}
+.woocommerce-checkout-review-order-table th:nth-child(2),
+.woocommerce-checkout-review-order-table td:nth-child(2) {
+    text-align: right;
+}
+
+
+/* Input */
+
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text] {
+    text-transform: uppercase;
+}
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: none;
+}
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-transform: none;
+}
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-transform: none;
+}
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text]:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-transform: none;
+}
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::placeholder { /* Recent browsers */
+    text-transform: none;
+}
+
+
+
+
+.gform_wrapper .gfield_checkbox li label, .gform_wrapper .gfield_radio li label {
+    white-space: nowrap !important;
+}
+
+
+
+/* Steps */
+#content .gform_wrapper .gf_step {
+    opacity: 0.75;
+}
+#content .gform_wrapper .gf_step.gf_step_active {
+    opacity: 1;
+}
+.gform_wrapper .gf_page_steps {
+    background-color: #BC2854;
+    color: #fff;
+    padding: 0 20px !important;
+    display: inline-block !important;
+}
+.gform_wrapper .gf_step span.gf_step_number {
+    background: rgba(255, 255, 255, .5);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 1em !important;
+    line-height: 20px;
+    border-radius: 320px;
+}
+.gform_wrapper .gf_step.gf_step_active span.gf_step_number {
+    background: rgba(255, 255, 255, 1);
+    color: #BC2854;
+}
+.gform_wrapper .gf_step span.gf_step_label {
+}
+
+/* Buttons */
+body .gform_wrapper .gform_body .gform_fields .gfield select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    background-image: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#444' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    padding: 2px 25px 2px 10px !important;
+    font-size: 14px !important;
+}
+
+
+
+.woocommerce div.product form.cart .gform_wrapper .button {
+    float: none !important;
+}
+.gform_wrapper .gform_page_footer {
+    text-align: right;
+}
+.searchflexiform .results {
+    text-align: center;
+}
+body .gform_wrapper .gform_body .gform_next_button.button,
+.searchflexiform .button,
+.single_add_to_cart_button.gform_button,
+body .gform_wrapper .gform_page_footer .button.gform_button,
+body .gform_wrapper .gform_body .gform_previous_button.button {
+    background-color: #BC2854 !important;
+    border: 1px solid #BC2854 !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    padding: 10px 16px !important;
+    line-height: initial !important;
+    height: initial !important;
+    padding: 8px 25px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    border-radius: 0 !important;
+}
+.single_add_to_cart_button.gform_button {
+    background-color: #8dc641 !important;
+    border: 1px solid #8dc641 !important;
+    float: right !important;
+}
+
+.wc_payment_method.payment_method_migs label img {
+    display: none !important;
+}
+.woocommerce-checkout #payment div.payment_box {
+    background: transparent;
+    padding: 0 10px;
+}
+body fieldset.bootstrapiso {
+    background: transparent;
+}
+body fieldset.bootstrapiso input {
+    background: #ffffff;
+}
+body fieldset.bootstrapiso label {
+    font-size: 14px;
+}
+.payment_method_migs > p {
+    display: none !important;
+}
+
+
+body .gform_wrapper .gform_body .gform_next_button.button:hover,
+body .gform_wrapper .gform_body .gform_previous_button.button:hover,
+body .gform_wrapper .gform_page_footer .button.gform_button:hover,
+.searchflexiform .button:hover,
+.single_add_to_cart_button.gform_button:hover,
+.single_add_to_cart_button.gform_button:active,
+body .gform_wrapper .gform_body .gform_next_button.button:active,
+.searchflexiform .search_button.button:active,
+body .gform_wrapper .gform_page_footer .button.gform_button:active,
+body .gform_wrapper .gform_body .gform_previous_button.button:active {
+    background-color: #252525 !important;
+    border: 1px solid #252525 !important;
+    color: #ffffff !important;
+}
+.single_add_to_cart_button.gform_button:hover,
+.single_add_to_cart_button.gform_button:active {
+    background-color: #252525 !important;
+    border: 1px solid #252525 !important;
+}
+
+mark a {
+    cursor: pointer !important;
+}
+
+
+.gform_save_link {
+    line-height: 39px;
+    padding: 0 25px;
+    background: #e4e4e4;
+    color: #252525;
+    margin-left: 0 !important;
+    float: left !important;
+}
+.gform_save_link:hover {
+    background-color: #8dc641;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html.preview-text {
+    margin-left: 10px !important;
+    margin-bottom: 30px !important;
+}
+
+.hideme {
+    display: none !important;
+}
+.map-it-link {
+    display: none !important;
+}
+.check-name-now:disabled {
+    background: #e4e4e4;
+    color: #252525;
+    cursor: not-allowed;
+}
+
+
+.gform_wrapper .gfield_checkbox li label, .gform_wrapper .gfield_radio li label {
+    font-size: 14px !important;
+}
+.gform_wrapper .gsection .gfield_label, .gform_wrapper h2.gsection_title, .gform_wrapper h3.gform_title {
+    font-size: 18px !important;
+    font-weight: normal !important;
+}
+
+/* GF Modal */
+.gpnf-dialog.ui-dialog {
+    max-width: 1100px;
+    background: #ffffff !important;
+}
+
+/* Chrome FIX */
+.gpnf-dialog .gform_wrapper.gf_browser_chrome .ginput_complex .ginput_right select, .gpnf-dialog .gform_wrapper.gf_browser_chrome .ginput_complex select {
+    margin-top: 15px !important;
+}
+
+
+/* FIX for error display */
+.gform_wrapper.gf_browser_chrome .gfield_error .ginput_complex.ginput_container.has_first_name.has_middle_name.has_last_name span.name_last, .gform_wrapper.gf_browser_chrome .gfield_error .ginput_complex.ginput_container.has_first_name.has_middle_name.has_last_name span.name_middle {
+    margin-left: 0 !important;
+}
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+.gpnf-add-entry {
+    border-radius: 0;
+}
+.entry .gpnf-field ul.bulleted, .entry .gpnf-field ol.bulleted {
+    margin-left: 0 !important;
+}
+.gpnf-row-actions {
+    text-align: right;
+}
+.gpnf-row-actions li.delete {
+    margin-left: 10px !important;
+}
+.gpnf-row-actions .edit a:after {
+    content: "\f044";
+    margin-left: 5px;
+    font-family: FontAwesome;
+}
+.gpnf-row-actions .delete a:after {
+    content: "\f014";
+    margin-left: 5px;
+    font-family: FontAwesome;
+}
+
+@media (max-width: 768px) {
+    .searchflexi {
+        display: block !important;
+    }
+    .legal_elements_container {
+        margin-top: 20px;
+    }
+    .searchflexi .button {
+        width: 100%;
+    }
+}
+/* Fixes */
+.berocket_linked_products { /* Force sell fix */
+    display: none !important;
+}
+.single-product .post-pagination-wrap { /* Single product pagination fix */
+    display: none !important;
+}
+.ginput_container_number .instruction { /* GF container instructions fix */
+    display: none !important;
+}
+body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html ul.gf-all-fields {
+    margin-left: 0 !important;
+}
+.share_beneficials_hide{
+    display: none;
+}
+
+/*----- Start 07-12-2018 -----*/
+a.add-type.pull-right {
+    float: right;
+    position: absolute;
+    z-index: 1;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    display: inline;
+    top: -40px ;
+    right: 0 ;
+}
+.type-row.shareallow,div#type_container {
+    position: relative;
+}
+a.remove-type {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    display: inline;
+    box-shadow: none !important;
+}
+a.add-type.pull-right img, a.remove-type img {
+    padding: 0 5px;
+    width: 27px;
+    float: left;
+    margin: 2px 0;
+}
+a.remove-type img  {
+    width: 25px;
+    float: left;
+    margin: 3px 0;
+}
+a.remove-type:hover, a.remove-type:focus, a.remove-type:active, a.add-type.pull-right:hover, a.add-type.pull-right:focus, a.add-type.pull-right:active{
+    text-decoration: none !important
+}
+a.add-type.pull-right, a.remove-type {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+a.add-type.pull-right {
+    color: #4CAF50 !important
+}
+a.remove-type{
+    color: red !important;
+}
+body .bootstrapiso .type-row.shareallow {
+    position: relative;
+    border: 1px solid #ddd;
+    margin: 20px -10px 0 !important;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+/*----- End 07-12-2018 -----*/
