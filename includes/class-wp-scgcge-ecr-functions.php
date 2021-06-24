@@ -36,8 +36,8 @@ function lodge201($form_main_id, $array, $order_id)
     if ($result === false) {
         $text = '<p>' . __('Hi', 'scgcge') . ' ' . get_option('woocommerce_email_from_name') . ',</p>';
         $text .= '<p>';
-        foreach($result_array['error'] as $error) {
-                    $text .= $error[0] . '<br>';
+        foreach ($result_array['error'] as $error) {
+            $text .= $error[0] . '<br>';
         }
         $text .= '</p>';
         $text .= '<p>' . __('Please fix the errors and resubmit. If the problem persists, please contact GetEDGE support team.', 'scgcge') . '</p>';
@@ -55,16 +55,16 @@ function lodge201($form_main_id, $array, $order_id)
         $status = $result_array['error'];
     }
 
-	if($status = 'new') {
-	    $save = $wpdb->update($wpdb->prefix . 'asic_companies', [
-		    'edge_id' => $result_array['response'],
-	        'status' => is_array($status) && !empty($result_array['error']) ? 'validation failed' : $status,
-	    ], ['code' => $form_main_id]);
-	} else {
-	    $save = $wpdb->update($wpdb->prefix . 'asic_companies', [
-	        'status' => is_array($status) && !empty($result_array['error']) ? 'validation failed' : $status,
-	    ], ['code' => $form_main_id]);
-	}
+    if ($status = 'new') {
+        $save = $wpdb->update($wpdb->prefix . 'asic_companies', [
+            'edge_id' => $result_array['response'],
+            'status' => is_array($status) && !empty($result_array['error']) ? 'validation failed' : $status,
+        ], ['code' => $form_main_id]);
+    } else {
+        $save = $wpdb->update($wpdb->prefix . 'asic_companies', [
+            'status' => is_array($status) && !empty($result_array['error']) ? 'validation failed' : $status,
+        ], ['code' => $form_main_id]);
+    }
 
 
     if ($status != 'new') {
@@ -73,8 +73,8 @@ function lodge201($form_main_id, $array, $order_id)
         $text = '<p>' . __('Hi', 'scgcge') . ' ' . $order->get_billing_first_name() . ',</p>';
         $text .= '<p>There was an error with the lodgement for order #'.$order_id.'.</p>';
         $text .= '<p><code>';
-        if(isset($result_array['error']) && is_array($result_array['error']) && !empty($result_array['error'])) {
-            foreach($result_array['error'] as $error) {
+        if (isset($result_array['error']) && is_array($result_array['error']) && !empty($result_array['error'])) {
+            foreach ($result_array['error'] as $error) {
                 $text .= "- " . $error[0]."<br>";
             }
         }
@@ -179,10 +179,7 @@ function checkStatus($array)
                 curl_setopt($curl, CURLOPT_HTTPHEADER, ['X-Auth-Edge: ' . $scgcge_ge_api_key]);
                 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
                 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-                /*
-                curl_setopt($curl, CURLOPT_POST, true);
-                curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($array));
-*/
+
                 $result = curl_exec($curl);
                 if (!file_exists(wp_upload_dir()['basedir'] . '/_certs/')) {
                     mkdir(wp_upload_dir()['basedir'] . '/_certs/', 0755, true);

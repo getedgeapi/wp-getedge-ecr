@@ -94,55 +94,50 @@ class Wp_Scgc_Public
 
             $newOrders = "SELECT order_id, code, edge_id FROM $wpdb->prefix" . "asic_companies WHERE order_id IS NOT NULL AND status = 'placed' ";
             $newCompanies = $wpdb->get_results($newOrders, ARRAY_A);
-            if(!empty($newCompanies)) {
-	            foreach($newCompanies as $newCompany) {
+            if (!empty($newCompanies)) {
+                foreach ($newCompanies as $newCompany) {
                     $order = wc_get_order($newCompany['order_id']);
                     foreach ($order->get_items() as $item) {
-			            $item_id = $item->get_id();
-			            $product_id = $item->get_product_id();
-			            if ($product_id == $reg_fee_id) {
-			                $company_registration_id = get_metadata('post', $newCompany['order_id'], 'company_registration_id', true);
-	                        $test_transmission = !empty($wp_scgcge_options['test_transmission']) ? $wp_scgcge_options['test_transmission'] : '';
-			                $array = $this->prepare_ge_array($company_registration_id, isset($newCompany['edge_id']) ? true : false, $test_transmission);
-			                if (!isset($array) || !is_array($array) || empty($array)) {
+                        $item_id = $item->get_id();
+                        $product_id = $item->get_product_id();
+                        if ($product_id == $reg_fee_id) {
+                            $company_registration_id = get_metadata('post', $newCompany['order_id'], 'company_registration_id', true);
+                            $test_transmission = !empty($wp_scgcge_options['test_transmission']) ? $wp_scgcge_options['test_transmission'] : '';
+                            $array = $this->prepare_ge_array($company_registration_id, isset($newCompany['edge_id']) ? true : false, $test_transmission);
+                            if (!isset($array) || !is_array($array) || empty($array)) {
                                 $save = $wpdb->update($wpdb->prefix . 'asic_companies', [
-				                    'status' => 'validation failed',
-				                ], ['code' => $company_registration_id]);
-				                // add email
-			                }
-			                $query = "SELECT company_name_full FROM $wpdb->prefix" . "asic_companies WHERE order_id = '" . $newCompany['order_id'] . "'";
-			                $company_name_full = stripslashes_deep($wpdb->get_var($query));
+                                    'status' => 'validation failed',
+                                ], ['code' => $company_registration_id]);
+                                // add email
+                            }
+                            $query = "SELECT company_name_full FROM $wpdb->prefix" . "asic_companies WHERE order_id = '" . $newCompany['order_id'] . "'";
+                            $company_name_full = stripslashes_deep($wpdb->get_var($query));
 
-			                $lodge201 = lodge201($company_registration_id, $array, $newCompany['order_id']);
-			                if ($lodge201) {
-				                
-				                $verb = isset($newCompany['edge_id']) ? 'relodged' : 'lodged';
-				                
-				                $subject = $company_name_full . ' has been ' . $verb . ' with ASIC';
-				                $title = $company_name_full . ' has been ' . $verb . ' with ASIC';
-				                $text = '<p>' . __('Dear', 'scgcge') . ' ' . ucfirst($order->get_billing_first_name()) . ',<p>';
-				                $text .= '<p>' . __('We are pleased to confirm that your application for ', 'scgcge') . $company_name_full . ' has been ' . $verb . ' with ASIC' . ' (Ref# ' . $newCompany['order_id'] . ' / ' . $lodge201 . ').<p>';
-				                $text .= '<p>' . __('In most cases, submitted orders will be processed by ASIC within minutes however, please note that unexpected delays may occur if:', 'scgcge') . '</p>';
-				                $text .= '<ul><li>' . ('A manual review is initiated by ASIC for reasons such as an unusual name containing non-dictionary words') . '</li><li>' . __('The ASIC system is offline for maintenance or inaccessible for any reason', 'scgcge') . '</li></ul>';
-				                $text .= '<p>' . __('You may review the status of your order at anytime by logging in to your', 'scgcge') . ' <a href="' . get_permalink(get_option('woocommerce_myaccount_page_id')) . '/">' . __('client area', 'scgcge') . '</a>.' . __('Information on how to access your client area has been sent to you in a previous email.', 'scgcge') . '</p>';
-				                $text .= '<p>' . __('We appreciate and value your comments, suggestions and general feedback as this helps us to further develop our systems for an ever-improving customer experience. Please write to', 'scgcge') . ' ' . get_option('woocommerce_email_from_address') . ' ' . __('with anything that you would like us to know.', 'scgcge') . '</p>';
-				                $text .= '<p>' . __('Thank you for your business.', 'scgcge') . ' </p>';
-				                $text .= '<p>' . __('Sincerely,', 'scgcge') . '<br>' . get_option('woocommerce_email_from_name') . ' </p>';
-				
-				                $reference = $company_name_full;
-				                
+                            $lodge201 = lodge201($company_registration_id, $array, $newCompany['order_id']);
+                            if ($lodge201) {
+                                $verb = isset($newCompany['edge_id']) ? 'relodged' : 'lodged';
+                                
+                                $subject = $company_name_full . ' has been ' . $verb . ' with ASIC';
+                                $title = $company_name_full . ' has been ' . $verb . ' with ASIC';
+                                $text = '<p>' . __('Dear', 'scgcge') . ' ' . ucfirst($order->get_billing_first_name()) . ',<p>';
+                                $text .= '<p>' . __('We are pleased to confirm that your application for ', 'scgcge') . $company_name_full . ' has been ' . $verb . ' with ASIC' . ' (Ref# ' . $newCompany['order_id'] . ' / ' . $lodge201 . ').<p>';
+                                $text .= '<p>' . __('In most cases, submitted orders will be processed by ASIC within minutes however, please note that unexpected delays may occur if:', 'scgcge') . '</p>';
+                                $text .= '<ul><li>' . ('A manual review is initiated by ASIC for reasons such as an unusual name containing non-dictionary words') . '</li><li>' . __('The ASIC system is offline for maintenance or inaccessible for any reason', 'scgcge') . '</li></ul>';
+                                $text .= '<p>' . __('You may review the status of your order at anytime by logging in to your', 'scgcge') . ' <a href="' . get_permalink(get_option('woocommerce_myaccount_page_id')) . '/">' . __('client area', 'scgcge') . '</a>.' . __('Information on how to access your client area has been sent to you in a previous email.', 'scgcge') . '</p>';
+                                $text .= '<p>' . __('We appreciate and value your comments, suggestions and general feedback as this helps us to further develop our systems for an ever-improving customer experience. Please write to', 'scgcge') . ' ' . get_option('woocommerce_email_from_address') . ' ' . __('with anything that you would like us to know.', 'scgcge') . '</p>';
+                                $text .= '<p>' . __('Thank you for your business.', 'scgcge') . ' </p>';
+                                $text .= '<p>' . __('Sincerely,', 'scgcge') . '<br>' . get_option('woocommerce_email_from_name') . ' </p>';
+                
+                                $reference = $company_name_full;
+                                
 
-				
-				                $this->sendEmail($order->get_billing_email(), $subject, $title, $text);
+                
+                                $this->sendEmail($order->get_billing_email(), $subject, $title, $text);
                                 echo 'Order #' . $newCompany['order_id'] . ': lodged<br />';
-
-			                }
-
-			            }
-			        }
-
-	            }
-
+                            }
+                        }
+                    }
+                }
             }
 
             $query = "SELECT order_id, edge_id, user_id, code, search_result, legal_elements FROM $wpdb->prefix" . "asic_companies WHERE order_id IS NOT NULL AND edge_id IS NOT NULL AND ( status = 'new' OR status = 'New' OR status = 'sent' OR status = 'transmission ok' OR status = 'validation ok' OR status = 'manual review' OR status = 'retry error E01' OR status = 'stop error D01' OR status = 'retry error E02' OR status = 'retry 0003' OR status = 'retry error D02' OR status = 'retry error D04' )  ";
@@ -174,10 +169,8 @@ class Wp_Scgc_Public
         }
         
         // Xero oAuth2.0 redirect endpoint
-        if (wp_scgcge_current_segment() == 'xeroAuth') { 
-            
-            
-            if(empty($_GET['state']) || ($_GET['state'] !== $_SESSION['oauth2state'])) {
+        if (wp_scgcge_current_segment() == 'xeroAuth') {
+            if (empty($_GET['state']) || ($_GET['state'] !== $_SESSION['oauth2state'])) {
                 unset($_SESSION['oauth2state']);
                 header('Location: ' . site_url().'/wp-admin/admin.php?page=wp-scgcge-settings');
                 exit('Invalid state');
@@ -202,8 +195,8 @@ class Wp_Scgc_Public
         }
 
         // Xero oAuth2.0 refresh endpoint
-        if (wp_scgcge_current_segment() == 'xeroRefresh') { 
-            if(get_option('getedge_xero_auth_refresh') != null ) {
+        if (wp_scgcge_current_segment() == 'xeroRefresh') {
+            if (get_option('getedge_xero_auth_refresh') != null) {
                 $provider = new \Calcinai\OAuth2\Client\Provider\Xero([
                     'clientId'          => $wp_scgcge_options['getedge_xero_client_id'],
                     'clientSecret'      => $wp_scgcge_options['getedge_xero_client_secret'],
@@ -220,15 +213,14 @@ class Wp_Scgc_Public
                 echo 'Xero access token refreshed';
                 die();
             } else {
-            header('HTTP/1.1 200 OK');
-            header('Location: ' . home_url());
-            exit;
+                header('HTTP/1.1 200 OK');
+                header('Location: ' . home_url());
+                exit;
             }
-            
         }
 
         // Xero oAuth2.0 disconnect endpoint
-        if (wp_scgcge_current_segment() == 'xeroDisconnect') { 
+        if (wp_scgcge_current_segment() == 'xeroDisconnect') {
             delete_option('getedge_xero_auth_token');
             delete_option('getedge_xero_auth_refresh');
             delete_option('getedge_xero_auth_expiration');
@@ -237,7 +229,6 @@ class Wp_Scgc_Public
             header('HTTP/1.1 200 OK');
             header('Location: ' . site_url().'/wp-admin/admin.php?page=wp-scgcge-settings');
             exit;
-            
         }
 
         //if Registration pages Endpoint downloadCert Than
@@ -523,71 +514,71 @@ class Wp_Scgc_Public
                 <small><em><?php echo __('If you are a company and you want to brand the company documents, fill in the above field.', 'scgcge'); ?></em></small>
         </p>
         <?php
-            }
+    }
 
-            /**
-             * Custom Field Add On save Account Page
-             *
-             * @package SCGC GetEDGE API
-             * @since 1.0.0
-             */
-            public function wp_scgcge_save_fields_in_edit_account_form($user_id)
-            {
-                if (isset($_POST['ecr_company_name'])) {
-                    update_user_meta($user_id, 'ecr_company_name', sanitize_text_field($_POST['ecr_company_name']));
-                }
-            }
+    /**
+     * Custom Field Add On save Account Page
+     *
+     * @package SCGC GetEDGE API
+     * @since 1.0.0
+     */
+    public function wp_scgcge_save_fields_in_edit_account_form($user_id)
+    {
+        if (isset($_POST['ecr_company_name'])) {
+            update_user_meta($user_id, 'ecr_company_name', sanitize_text_field($_POST['ecr_company_name']));
+        }
+    }
 
-            /**
-             * Custom Message Add My Account
-             *
-             * @package SCGC GetEDGE API
-             * @since 1.0.0
-             */
-            public function wp_scgcge_filter_woocommerce_my_account_message($var)
-            {
-                if (isset($_GET['save'])) {
-                    $var = __('Please login into your account or create a new one in order to save your current application progress.', 'scgcge');
-                }
-                if (isset($_GET['not-authorised'])) {
-                    $var = __('Please login into your account to download the company documents.', 'scgcge');
-                }
-                return $var;
-            }
+    /**
+     * Custom Message Add My Account
+     *
+     * @package SCGC GetEDGE API
+     * @since 1.0.0
+     */
+    public function wp_scgcge_filter_woocommerce_my_account_message($var)
+    {
+        if (isset($_GET['save'])) {
+            $var = __('Please login into your account or create a new one in order to save your current application progress.', 'scgcge');
+        }
+        if (isset($_GET['not-authorised'])) {
+            $var = __('Please login into your account to download the company documents.', 'scgcge');
+        }
+        return $var;
+    }
 
-            /**
-             * Custom Message Add After Cart Total
-             *
-             * @package SCGC GetEDGE API
-             * @since 1.0.0
-             */
-            public function wp_scgcge_woocommerce_after_cart_totals()
-            {
-                echo '<div style="text-align: center; margin-top: 10px;">' . __('Placing the order will lock the application.', 'scgcge') . '<br /><a href="' . wp_scgcge_action_url() . '/general-details/?token=' . wp_scgcge_getSession() . '">' . __('Do you want to review the application once again?', 'scgcge') . '</a></div>';
-            }
+    /**
+     * Custom Message Add After Cart Total
+     *
+     * @package SCGC GetEDGE API
+     * @since 1.0.0
+     */
+    public function wp_scgcge_woocommerce_after_cart_totals()
+    {
+        echo '<div style="text-align: center; margin-top: 10px;">' . __('Placing the order will lock the application.', 'scgcge') . '<br /><a href="' . wp_scgcge_action_url() . '/general-details/?token=' . wp_scgcge_getSession() . '">' . __('Do you want to review the application once again?', 'scgcge') . '</a></div>';
+    }
 
-            /**
-             * Custom Endpoint Content in Dashboard
-             *
-             * @package SCGC GetEDGE API
-             * @since 1.0.0
-             */
-            public function wp_scgcge_companies_dashboard_menu_endpoint_companies_content()
-            {
-                global $wpdb;
+    /**
+     * Custom Endpoint Content in Dashboard
+     *
+     * @package SCGC GetEDGE API
+     * @since 1.0.0
+     */
+    public function wp_scgcge_companies_dashboard_menu_endpoint_companies_content()
+    {
+        global $wpdb;
 
-                $current_user = wp_get_current_user();
-                $query = "SELECT * FROM $wpdb->prefix" . "asic_companies WHERE user_id = '$current_user->ID' AND acn IS NOT NULL ORDER BY id DESC";
-                $records = $wpdb->get_results($query, ARRAY_A);
+        $current_user = wp_get_current_user();
+        $query = "SELECT * FROM $wpdb->prefix" . "asic_companies WHERE user_id = '$current_user->ID' AND acn IS NOT NULL ORDER BY id DESC";
+        $records = $wpdb->get_results($query, ARRAY_A);
 
-                echo '<h2 style="margin-top: 0px;">' . __('Companies list', 'scgcge') . '</h2>';
+        echo '<h2 style="margin-top: 0px;">' . __('Companies list', 'scgcge') . '</h2>';
 
-                if (!empty($records)) {
-                    echo '<table class="woocommerce-orders-table woocommerce-MyAccount-orders shop_table shop_table_responsive my_account_orders account-orders-table"><thead><tr><th style="text-align: left;">' . __('Company Details', 'scgcge') . '</th><th style="text-align: right; white-space: nowrap;">' . __('Downloads', 'scgcge') . '</th></tr></thead><tbody>';
-                    foreach ($records as $record) {
-                        $reg_date = date('d/m/Y', strtotime($record['reg_date']));
-                        $acn = chunk_split($record['acn'], 3, ' ');
-                        $registration_details = 'ACN ' . $acn . ' / ' . 'Registered on ' . $reg_date; ?>
+        if (!empty($records)) {
+            echo '<table class="woocommerce-orders-table woocommerce-MyAccount-orders shop_table shop_table_responsive my_account_orders account-orders-table"><thead><tr><th style="text-align: left;">' . __('Company Details', 'scgcge') . '</th><th style="text-align: right; white-space: nowrap;">' . __('Downloads', 'scgcge') . '</th></tr></thead><tbody>';
+            foreach ($records as $record) {
+                $reg_date = date('d/m/Y', strtotime($record['reg_date']));
+                $acn = chunk_split($record['acn'], 3, ' ');
+                $registration_details = 'ACN ' . $acn . ' / ' . 'Registered on ' . $reg_date; ?>
 
                 <tr>
                     <td><?= stripslashes_deep($record['company_name_full']) ?><small><em><br /><?= $registration_details ?></em></small></td>
@@ -598,56 +589,56 @@ class Wp_Scgc_Public
                 </tr>
 
             <?php
-                        }
-                        echo '</tbody></table>';
-                    } else {
-                        echo '<p>' . __('You have no company registered with us.', 'scgcge') . '</p>';
-                    }
-                }
+            }
+            echo '</tbody></table>';
+        } else {
+            echo '<p>' . __('You have no company registered with us.', 'scgcge') . '</p>';
+        }
+    }
 
-                /**
-                 * Custom Endpoint Application Content in Dashboard
-                 *
-                 * @package SCGC GetEDGE API
-                 * @since 1.0.0
-                 */
-                public function wp_scgcge_companies_dashboard_menu_endpoint_applications_content()
-                {
-                    global $wpdb;
-                    $current_user = wp_get_current_user();
-                    $query = "SELECT * FROM $wpdb->prefix" . "asic_companies WHERE user_id = '$current_user->ID' AND acn IS NULL ORDER BY id DESC";
-                    $records = $wpdb->get_results($query, ARRAY_A);
+    /**
+     * Custom Endpoint Application Content in Dashboard
+     *
+     * @package SCGC GetEDGE API
+     * @since 1.0.0
+     */
+    public function wp_scgcge_companies_dashboard_menu_endpoint_applications_content()
+    {
+        global $wpdb;
+        $current_user = wp_get_current_user();
+        $query = "SELECT * FROM $wpdb->prefix" . "asic_companies WHERE user_id = '$current_user->ID' AND acn IS NULL ORDER BY id DESC";
+        $records = $wpdb->get_results($query, ARRAY_A);
 
-                    echo '<h2 style="margin-top: 0px;">Open applications list</h2>';
+        echo '<h2 style="margin-top: 0px;">Open applications list</h2>';
 
-                    if (!empty($records)) {
-                        echo '<table class="woocommerce-orders-table woocommerce-MyAccount-orders shop_table shop_table_responsive my_account_orders account-orders-table"><thead><tr><th style="text-align: left;">' . __('Company Name', 'scgcge') . '</th><th style="text-align: center; white-space: nowrap;">' . __('Status', 'scgcge') . '</th><th style="text-align: right; white-space: nowrap;">' . __('Actions', 'scgcge') . '</th></tr></thead><tbody>';
-                        foreach ($records as $record) {
-                            $reg_date = date('d/m/Y', strtotime($record['reg_date']));
-                            $acn = chunk_split($record['acn'], 3, ' ');
-                            $registration_details = 'ACN' . $acn . ' / ' . __('Registered on', 'scgcge') . ' ' . $reg_date; ?>
+        if (!empty($records)) {
+            echo '<table class="woocommerce-orders-table woocommerce-MyAccount-orders shop_table shop_table_responsive my_account_orders account-orders-table"><thead><tr><th style="text-align: left;">' . __('Company Name', 'scgcge') . '</th><th style="text-align: center; white-space: nowrap;">' . __('Status', 'scgcge') . '</th><th style="text-align: right; white-space: nowrap;">' . __('Actions', 'scgcge') . '</th></tr></thead><tbody>';
+            foreach ($records as $record) {
+                $reg_date = date('d/m/Y', strtotime($record['reg_date']));
+                $acn = chunk_split($record['acn'], 3, ' ');
+                $registration_details = 'ACN' . $acn . ' / ' . __('Registered on', 'scgcge') . ' ' . $reg_date; ?>
 
                 <tr>
                     <td><?= stripslashes_deep($record['company_name_full']) ?></td>
                     <td style="text-align: center;">
                         <?php if (isset($record['status'])) {
-                                            if ($record['status'] == 'new') {
-                                                echo __('Submitted to ASIC', 'scgcge');
-                                            } else {
-                                                echo ucwords($record['status']);
-                                            }
-                                        } else {
-                                            echo __('Open', 'scgcge');
-                                        } ?>
+                    if ($record['status'] == 'new') {
+                        echo __('Submitted to ASIC', 'scgcge');
+                    } else {
+                        echo ucwords($record['status']);
+                    }
+                } else {
+                    echo __('Open', 'scgcge');
+                } ?>
                     </td>
                     <td style="text-align: right;">
                         <?php if ($record['status'] == 'validation failed' || $record['status'] == 'rejected') {
-                                            echo '<a href="' . wp_scgcge_action_url() . '/general-details/?token=' . $record['code'] . '"><i class="fa fa-edit"></i> ' . __('Amend application', 'scgcge') . '</a>';
-                                        } elseif ($record['status'] == '') {
-                                            echo '<a href="' . wp_scgcge_action_url() . '/general-details/?token=' . $record['code'] . '"><i class="fa fa-edit"></i> ' . __('Continue application', 'scgcge') . '</a>';
-                                        } else {
-                                            echo __('No action required', 'scgcge');
-                                        } ?>
+                    echo '<a href="' . wp_scgcge_action_url() . '/general-details/?token=' . $record['code'] . '"><i class="fa fa-edit"></i> ' . __('Amend application', 'scgcge') . '</a>';
+                } elseif ($record['status'] == '') {
+                    echo '<a href="' . wp_scgcge_action_url() . '/general-details/?token=' . $record['code'] . '"><i class="fa fa-edit"></i> ' . __('Continue application', 'scgcge') . '</a>';
+                } else {
+                    echo __('No action required', 'scgcge');
+                } ?>
                     </td>
                 </tr>
 
@@ -732,53 +723,53 @@ class Wp_Scgc_Public
         ], ['code' => $company_registration_id]);
 
 
-/*
-        $order = wc_get_order($order_id);
-        foreach ($order->get_items() as $item) {
-            $item_id = $item->get_id();
-            $product_id = $item->get_product_id();
-            if ($product_id == $reg_fee_id) {
-                $company_registration_id = get_metadata('post', $order_id, 'company_registration_id', true);
-                $array = $this->prepare_ge_array($company_registration_id, false, $test_transmission);
-                
+        /*
+                $order = wc_get_order($order_id);
+                foreach ($order->get_items() as $item) {
+                    $item_id = $item->get_id();
+                    $product_id = $item->get_product_id();
+                    if ($product_id == $reg_fee_id) {
+                        $company_registration_id = get_metadata('post', $order_id, 'company_registration_id', true);
+                        $array = $this->prepare_ge_array($company_registration_id, false, $test_transmission);
 
-                if (!isset($array) || !is_array($array) || empty($array)) {
-                    $text = '<p>' . __('Hi', 'scgcge') . ' ' . get_option('woocommerce_email_from_name') . ',</p>';
-                    $text .= '<p>' . __('There was data processing error. ', 'scgcge') . '</p>';
-                    $text .= '<p>' . __('Please manually lodge the application by changing the order status to processing. If the problem persists, please contact GetEDGE support team.', 'scgcge') . '</p>';
-                    $text .= '<p>' . __('Kind regards,', 'scgcge') . '<br />' . __('GetEDGE Team', 'scgcge') . '</p>';
-                    $this->sendEmail(get_option('woocommerce_email_from_address'), 'GetEDGE Error', 'GetEDGE Error', $text);
-                    if (get_option('wp_scgcge_options')['slack_webhook_url']) {
-                        wp_scgcge_toSlack('There was an error processing Order #' . $order_id . ' - Data processing');
+
+                        if (!isset($array) || !is_array($array) || empty($array)) {
+                            $text = '<p>' . __('Hi', 'scgcge') . ' ' . get_option('woocommerce_email_from_name') . ',</p>';
+                            $text .= '<p>' . __('There was data processing error. ', 'scgcge') . '</p>';
+                            $text .= '<p>' . __('Please manually lodge the application by changing the order status to processing. If the problem persists, please contact GetEDGE support team.', 'scgcge') . '</p>';
+                            $text .= '<p>' . __('Kind regards,', 'scgcge') . '<br />' . __('GetEDGE Team', 'scgcge') . '</p>';
+                            $this->sendEmail(get_option('woocommerce_email_from_address'), 'GetEDGE Error', 'GetEDGE Error', $text);
+                            if (get_option('wp_scgcge_options')['slack_webhook_url']) {
+                                wp_scgcge_toSlack('There was an error processing Order #' . $order_id . ' - Data processing');
+                            }
+                            return false;
+                        }
+
+                        $lodge201 = lodge201($company_registration_id, $array, $order_id);
+                        if (!$lodge201) {
+                            $order->update_status('on-hold', 'There was an error processing your request.'); // order note is optional, if you want to  add a note to order
+                            return false;
+                        }
+                        $query = "SELECT company_name_full FROM $wpdb->prefix" . "asic_companies WHERE order_id = '" . $order_id . "'";
+                        $company_name_full = stripslashes_deep($wpdb->get_var($query));
+
+                        $subject = $company_name_full . ' ' . __('has been lodged with ASIC', 'scgcge');
+                        $title = $company_name_full . ' ' . __('has been lodged with ASIC', 'scgcge');
+                        $text = '<p>' . __('Dear', 'scgcge') . ' ' . ucfirst($order->get_billing_first_name()) . ',<p>';
+                        $text .= '<p>' . ('We are pleased to confirm that your application for ') . $company_name_full . ' ' . __('has been lodged with ASIC', 'scgcge') . ' (Ref# ' . $order_id . ' / ' . $lodge201 . ').<p>';
+                        $text .= '<p>' . __('In most cases, submitted orders will be processed by ASIC within minutes however, please note that unexpected delays may occur if:', 'scgcge') . '</p>';
+                        $text .= '<ul><li>' . ('A manual review is initiated by ASIC for reasons such as an unusual name containing non-dictionary words') . '</li><li>' . __('The ASIC system is offline for maintenance or inaccessible for any reason', 'scgcge') . '</li></ul>';
+                        $text .= '<p>' . __('You may review the status of your order at anytime by logging in to your', 'scgcge') . ' <a href="' . get_permalink(get_option('woocommerce_myaccount_page_id')) . '/">' . __('client area', 'scgcge') . '</a>.' . __('Information on how to access your client area has been sent to you in a previous email.', 'scgcge') . '</p>';
+                        $text .= '<p>' . __('We appreciate and value your comments, suggestions and general feedback as this helps us to further develop our systems for an ever-improving customer experience. Please write to', 'scgcge') . ' ' . get_option('woocommerce_email_from_address') . ' ' . __('with anything that you would like us to know.', 'scgcge') . '</p>';
+                        $text .= '<p>' . __('Thank you for your business.', 'scgcge') . ' </p>';
+                        $text .= '<p>' . __('Sincerely,', 'scgcge') . '<br>' . get_option('woocommerce_email_from_name') . ' </p>';
+
+                        $reference = $company_name_full;
+
+                        $this->sendEmail($order->get_billing_email(), $subject, $title, $text);
                     }
-                    return false;
                 }
-
-                $lodge201 = lodge201($company_registration_id, $array, $order_id);
-                if (!$lodge201) {
-                    $order->update_status('on-hold', 'There was an error processing your request.'); // order note is optional, if you want to  add a note to order
-                    return false;
-                }
-                $query = "SELECT company_name_full FROM $wpdb->prefix" . "asic_companies WHERE order_id = '" . $order_id . "'";
-                $company_name_full = stripslashes_deep($wpdb->get_var($query));
-
-                $subject = $company_name_full . ' ' . __('has been lodged with ASIC', 'scgcge');
-                $title = $company_name_full . ' ' . __('has been lodged with ASIC', 'scgcge');
-                $text = '<p>' . __('Dear', 'scgcge') . ' ' . ucfirst($order->get_billing_first_name()) . ',<p>';
-                $text .= '<p>' . ('We are pleased to confirm that your application for ') . $company_name_full . ' ' . __('has been lodged with ASIC', 'scgcge') . ' (Ref# ' . $order_id . ' / ' . $lodge201 . ').<p>';
-                $text .= '<p>' . __('In most cases, submitted orders will be processed by ASIC within minutes however, please note that unexpected delays may occur if:', 'scgcge') . '</p>';
-                $text .= '<ul><li>' . ('A manual review is initiated by ASIC for reasons such as an unusual name containing non-dictionary words') . '</li><li>' . __('The ASIC system is offline for maintenance or inaccessible for any reason', 'scgcge') . '</li></ul>';
-                $text .= '<p>' . __('You may review the status of your order at anytime by logging in to your', 'scgcge') . ' <a href="' . get_permalink(get_option('woocommerce_myaccount_page_id')) . '/">' . __('client area', 'scgcge') . '</a>.' . __('Information on how to access your client area has been sent to you in a previous email.', 'scgcge') . '</p>';
-                $text .= '<p>' . __('We appreciate and value your comments, suggestions and general feedback as this helps us to further develop our systems for an ever-improving customer experience. Please write to', 'scgcge') . ' ' . get_option('woocommerce_email_from_address') . ' ' . __('with anything that you would like us to know.', 'scgcge') . '</p>';
-                $text .= '<p>' . __('Thank you for your business.', 'scgcge') . ' </p>';
-                $text .= '<p>' . __('Sincerely,', 'scgcge') . '<br>' . get_option('woocommerce_email_from_name') . ' </p>';
-
-                $reference = $company_name_full;
-
-                $this->sendEmail($order->get_billing_email(), $subject, $title, $text);
-            }
-        }
-*/
+        */
         
         
         
