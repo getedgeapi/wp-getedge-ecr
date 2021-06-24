@@ -4,7 +4,7 @@
  * Plugin Name: GetEDGE API for WooCommerce
  * Plugin URI: https://getedge.com.au/
  * Description: Search company name availability and register companies with ASIC, using GetEDGE API.
- * Version: 2.8.2
+ * Version: 2.8.3
  * Author: Southern Cross Global Consulting Pty Ltd
  * Author URI: https://www.scglobal.com.au/
  * Text Domain: scgcge
