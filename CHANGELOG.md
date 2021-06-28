@@ -1,5 +1,8 @@
 # Changelog
 
+### 2.8.7
+Small fix
+
 ### 2.8.6
 Added defuse/php-encryption dependency
 

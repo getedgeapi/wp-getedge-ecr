@@ -154,6 +154,7 @@ class Wp_Scgc_Public
                         'user_id' => $company['user_id'],
                         'search_result' => $company['search_result'],
                         'legal_elements' => $company['legal_elements'],
+                        'company_name_full' => $company['company_name_full'],
                     ];
                     write_log('Checking request status...');
                     $checkStatus = checkStatus($array);
