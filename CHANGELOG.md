@@ -1,5 +1,8 @@
 # Changelog
 
+### 2.8.8
+Fixed validation error reporting on API errors
+
 ### 2.8.7
 Small fix
 

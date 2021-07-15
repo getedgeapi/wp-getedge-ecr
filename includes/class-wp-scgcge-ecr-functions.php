@@ -49,13 +49,13 @@ function lodge201($form_main_id, $array, $order_id)
         return false;
     }
 
-    if (empty($result_array['error'])) {
+    if (!isset($result_array['error'])) {
         $status = 'new';
     } else {
         $status = $result_array['error'];
     }
 
-    if ($status = 'new') {
+    if ($status == 'new') {
         $save = $wpdb->update($wpdb->prefix . 'asic_companies', [
             'edge_id' => $result_array['response'],
             'status' => is_array($status) && !empty($result_array['error']) ? 'validation failed' : $status,
