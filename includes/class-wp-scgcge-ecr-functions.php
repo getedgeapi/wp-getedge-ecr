@@ -49,20 +49,20 @@ function lodge201($form_main_id, $array, $order_id)
         return false;
     }
 
-    if (!isset($result_array['error'][0])) {
-        $status = 'new';
-    } else {
+    if (isset($result_array['error']) && is_array($result_array['error']) && count($result_array['error'])) {
         $status = $result_array['error'];
+    } else {
+        $status = 'new';
     }
 
     if ($status == 'new') {
         $save = $wpdb->update($wpdb->prefix . 'asic_companies', [
             'edge_id' => $result_array['response'],
-            'status' => is_array($status) && !empty($result_array['error']) ? 'validation failed' : $status,
+            'status' => is_array($status) && count($result_array['error']) ? 'validation failed' : $status,
         ], ['code' => $form_main_id]);
     } else {
         $save = $wpdb->update($wpdb->prefix . 'asic_companies', [
-            'status' => is_array($status) && !empty($result_array['error']) ? 'validation failed' : $status,
+            'status' => is_array($status) && count($result_array['error']) ? 'validation failed' : $status,
         ], ['code' => $form_main_id]);
     }
 
