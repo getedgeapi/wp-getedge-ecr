@@ -49,7 +49,7 @@ function lodge201($form_main_id, $array, $order_id)
         return false;
     }
 
-    if (!isset($result_array['error'])) {
+    if (!isset($result_array['error'][0])) {
         $status = 'new';
     } else {
         $status = $result_array['error'];
@@ -85,6 +85,7 @@ function lodge201($form_main_id, $array, $order_id)
         $text .= '<p>' . __('Sincerely,', 'scgcge') . '<br>' . get_option('woocommerce_email_from_name') . ' </p>';
         
         $public->sendEmail($order->get_billing_email(), $array['company_full_name'] . ' Error', $array['company_full_name'] . ' Error', $text);
+        $public->sendEmail(get_option('woocommerce_email_from_address'), $array['company_full_name'] . ' Error', $array['company_full_name'] . ' Error', $text);
         
         if (get_option('wp_scgcge_options')['slack_webhook_url']) {
             wp_scgcge_toSlack('There was an error processing Order #' . $order_id . ' - ' . $status);
